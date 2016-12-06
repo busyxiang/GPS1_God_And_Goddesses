@@ -1,0 +1,512 @@
+fileFormatVersion: 2
+guid: 2b56cb7029308e642ac532ab9d4e3f98
+timeCreated: 1470321909
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Spritesheet_SideView_Attacking_0
+    21300002: Spritesheet_SideView_Attacking_1
+    21300004: Spritesheet_SideView_Attacking_2
+    21300006: Spritesheet_SideView_Attacking_3
+    21300008: Spritesheet_SideView_Attacking_4
+    21300010: Spritesheet_SideView_Attacking_5
+    21300012: Spritesheet_SideView_Attacking_6
+    21300014: Spritesheet_SideView_Attacking_7
+    21300016: Spritesheet_SideView_Attacking_8
+    21300018: Spritesheet_SideView_Attacking_9
+    21300020: Spritesheet_SideView_Attacking_10
+    21300022: Spritesheet_SideView_Attacking_11
+    21300024: Spritesheet_SideView_Attacking_12
+    21300026: Spritesheet_SideView_Attacking_13
+    21300028: Spritesheet_SideView_Attacking_14
+    21300030: Spritesheet_SideView_Attacking_15
+    21300032: Spritesheet_SideView_Attacking_16
+    21300034: Spritesheet_SideView_Attacking_17
+    21300036: Spritesheet_SideView_Attacking_18
+    21300038: Spritesheet_SideView_Attacking_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Spritesheet_SideView_Attacking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 31}
+        - {x: 0, y: 30}
+        - {x: -21, y: 16}
+        - {x: -21, y: -8}
+        - {x: -11, y: -32}
+        - {x: 22, y: -32}
+        - {x: 27, y: -24}
+        - {x: 27, y: 21}
+        - {x: 22, y: 31}
+    - name: Spritesheet_SideView_Attacking_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 31}
+        - {x: -19, y: 17}
+        - {x: -19, y: -16}
+        - {x: -11, y: -32}
+        - {x: 28, y: -32}
+        - {x: 28, y: 31}
+    - name: Spritesheet_SideView_Attacking_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 31}
+        - {x: -18, y: 29}
+        - {x: -19, y: 28}
+        - {x: -19, y: 4}
+        - {x: -15, y: -8}
+        - {x: -5, y: -32}
+        - {x: 28, y: -32}
+        - {x: 28, y: 31}
+    - name: Spritesheet_SideView_Attacking_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 31}
+        - {x: -18, y: 29}
+        - {x: -20, y: 23}
+        - {x: -20, y: -15}
+        - {x: -8, y: -32}
+        - {x: 23, y: -32}
+        - {x: 26, y: -19}
+        - {x: 26, y: 16}
+        - {x: 13, y: 31}
+    - name: Spritesheet_SideView_Attacking_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 32}
+        - {x: -11, y: 32}
+        - {x: -18, y: 27}
+        - {x: -18, y: -32}
+        - {x: 19, y: -32}
+        - {x: 29, y: -18}
+        - {x: 29, y: 7}
+        - {x: 25, y: 30}
+    - name: Spritesheet_SideView_Attacking_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: -20}
+        - {x: -16, y: -32}
+        - {x: 18, y: -32}
+        - {x: 28, y: -24}
+        - {x: 28, y: 14}
+        - {x: 22, y: 32}
+        - {x: -16, y: 32}
+        - {x: -19, y: 28}
+    - name: Spritesheet_SideView_Attacking_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 30}
+        - {x: 3, y: 30}
+        - {x: 2, y: 29}
+        - {x: -1, y: 30}
+        - {x: -12, y: 30}
+        - {x: -18, y: 23}
+        - {x: -18, y: -17}
+        - {x: -7, y: -32}
+        - {x: 23, y: -32}
+        - {x: 27, y: -10}
+        - {x: 27, y: 15}
+        - {x: 21, y: 28}
+    - name: Spritesheet_SideView_Attacking_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 31}
+        - {x: -16, y: 26}
+        - {x: -16, y: 5}
+        - {x: -10, y: -13}
+        - {x: -2, y: -32}
+        - {x: 19, y: -32}
+        - {x: 28, y: -23}
+        - {x: 28, y: 31}
+    - name: Spritesheet_SideView_Attacking_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 32}
+        - {x: -17, y: -32}
+        - {x: 20, y: -32}
+        - {x: 27, y: -18}
+        - {x: 27, y: 10}
+        - {x: 20, y: 32}
+    - name: Spritesheet_SideView_Attacking_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 32}
+        - {x: -16, y: 23}
+        - {x: -16, y: 12}
+        - {x: -3, y: -32}
+        - {x: 21, y: -32}
+        - {x: 27, y: -12}
+        - {x: 27, y: 20}
+        - {x: 20, y: 32}
+      - - {x: -12, y: -28}
+        - {x: -8, y: -32}
+        - {x: -5, y: -30}
+        - {x: -7, y: -25}
+        - {x: -10, y: -25}
+        - {x: -12, y: -27}
+    - name: Spritesheet_SideView_Attacking_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 32}
+        - {x: -18, y: 22}
+        - {x: -18, y: -6}
+        - {x: -4, y: -31}
+        - {x: 0, y: -32}
+        - {x: 20, y: -32}
+        - {x: 28, y: -20}
+        - {x: 28, y: 10}
+        - {x: 21, y: 32}
+    - name: Spritesheet_SideView_Attacking_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 30}
+        - {x: 0, y: 30}
+        - {x: -19, y: 25}
+        - {x: -19, y: -12}
+        - {x: -9, y: -32}
+        - {x: 25, y: -32}
+        - {x: 28, y: -8}
+        - {x: 28, y: 9}
+    - name: Spritesheet_SideView_Attacking_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: -13}
+        - {x: -7, y: -32}
+        - {x: 30, y: -32}
+        - {x: 30, y: 20}
+        - {x: 20, y: 32}
+        - {x: -17, y: 32}
+        - {x: -21, y: 23}
+    - name: Spritesheet_SideView_Attacking_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: -5}
+        - {x: 22, y: -8}
+        - {x: 25, y: -8}
+        - {x: 30, y: -6}
+        - {x: 30, y: 0}
+        - {x: 28, y: 11}
+        - {x: 22, y: 15}
+        - {x: 18, y: 27}
+        - {x: 2, y: 32}
+        - {x: 0, y: 32}
+        - {x: -3, y: 27}
+        - {x: -3, y: 14}
+        - {x: -3, y: 32}
+        - {x: -12, y: 32}
+        - {x: -25, y: 25}
+        - {x: -25, y: -32}
+        - {x: 21, y: -32}
+        - {x: 21, y: -8}
+        - {x: 19, y: -6}
+    - name: Spritesheet_SideView_Attacking_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 0}
+        - {x: 20, y: -8}
+        - {x: 29, y: -4}
+        - {x: 29, y: 12}
+        - {x: 15, y: 32}
+        - {x: -2, y: 32}
+        - {x: -8, y: 28}
+        - {x: -8, y: 24}
+        - {x: -10, y: 25}
+        - {x: -6, y: 31}
+        - {x: -6, y: 32}
+        - {x: -16, y: 32}
+        - {x: -22, y: 28}
+        - {x: -25, y: 22}
+        - {x: -25, y: -18}
+        - {x: -9, y: -23}
+        - {x: -7, y: -23}
+        - {x: -4, y: -22}
+        - {x: -2, y: -31}
+        - {x: 0, y: -32}
+        - {x: 19, y: -32}
+        - {x: 19, y: -7}
+        - {x: 15, y: -2}
+    - name: Spritesheet_SideView_Attacking_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 31}
+        - {x: -4, y: 31}
+        - {x: -10, y: 29}
+        - {x: -25, y: 1}
+        - {x: -25, y: -17}
+        - {x: -4, y: -32}
+        - {x: 19, y: -32}
+        - {x: 26, y: -15}
+        - {x: 26, y: 5}
+        - {x: 23, y: 16}
+      - - {x: 5, y: 32}
+        - {x: 6, y: 29}
+        - {x: 16, y: 29}
+        - {x: 18, y: 31}
+        - {x: 18, y: 32}
+    - name: Spritesheet_SideView_Attacking_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 30}
+        - {x: -5, y: 28}
+        - {x: -23, y: 7}
+        - {x: -23, y: -13}
+        - {x: 0, y: -32}
+        - {x: 20, y: -32}
+        - {x: 26, y: -21}
+        - {x: 26, y: 12}
+        - {x: 20, y: 30}
+    - name: Spritesheet_SideView_Attacking_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 28}
+        - {x: 15, y: 31}
+        - {x: -9, y: 31}
+        - {x: -22, y: 18}
+        - {x: -22, y: -13}
+        - {x: -5, y: -32}
+        - {x: 21, y: -32}
+        - {x: 24, y: -19}
+        - {x: 27, y: -2}
+        - {x: 27, y: 11}
+    - name: Spritesheet_SideView_Attacking_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 14}
+        - {x: 19, y: 25}
+        - {x: 15, y: 30}
+        - {x: -1, y: 30}
+        - {x: -21, y: 16}
+        - {x: -21, y: -15}
+        - {x: -11, y: -32}
+        - {x: 22, y: -32}
+        - {x: 27, y: -9}
+        - {x: 27, y: 5}
+    - name: Spritesheet_SideView_Attacking_19
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 30}
+        - {x: 2, y: 30}
+        - {x: -18, y: 11}
+        - {x: -19, y: 9}
+        - {x: -19, y: -2}
+        - {x: -6, y: -13}
+        - {x: 0, y: -13}
+        - {x: 3, y: -10}
+        - {x: 3, y: -6}
+        - {x: 4, y: -8}
+        - {x: 2, y: -12}
+        - {x: -2, y: -27}
+        - {x: 1, y: -32}
+        - {x: 22, y: -32}
+        - {x: 29, y: -16}
+        - {x: 29, y: 16}
+        - {x: 26, y: 28}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

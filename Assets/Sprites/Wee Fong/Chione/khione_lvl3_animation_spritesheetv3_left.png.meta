@@ -1,0 +1,281 @@
+fileFormatVersion: 2
+guid: 6c66dd1c09e9c18418fe640bf7af9445
+timeCreated: 1468312226
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: khione_lvl2_animation_spritesheetv3_left_0
+    21300002: khione_lvl2_animation_spritesheetv3_left_1
+    21300004: khione_lvl2_animation_spritesheetv3_left_2
+    21300006: khione_lvl2_animation_spritesheetv3_left_3
+    21300008: khione_lvl2_animation_spritesheetv3_left_4
+    21300010: khione_lvl2_animation_spritesheetv3_left_5
+    21300012: khione_lvl2_animation_spritesheetv3_left_6
+    21300014: khione_lvl2_animation_spritesheetv3_left_7
+    21300016: khione_lvl2_animation_spritesheetv3_left_8
+    21300018: khione_lvl2_animation_spritesheetv3_left_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: khione_lvl2_animation_spritesheetv3_left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 170
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 60}
+        - {x: -26, y: 60}
+        - {x: -33, y: 41}
+        - {x: -33, y: 1}
+        - {x: -15, y: -15}
+        - {x: 7, y: -15}
+        - {x: 25, y: -13}
+        - {x: 31, y: -1}
+        - {x: 31, y: 25}
+        - {x: 18, y: 56}
+      - - {x: -31, y: 26}
+        - {x: -28, y: 27}
+        - {x: -28, y: 30}
+        - {x: -31, y: 31}
+        - {x: -33, y: 29}
+    - name: khione_lvl2_animation_spritesheetv3_left_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 170
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: 85}
+        - {x: -42, y: 85}
+        - {x: -55, y: 74}
+        - {x: -84, y: 36}
+        - {x: -85, y: 33}
+        - {x: -85, y: -40}
+        - {x: -49, y: -85}
+        - {x: 47, y: -85}
+        - {x: 83, y: -55}
+        - {x: 83, y: 70}
+        - {x: 81, y: 76}
+    - name: khione_lvl2_animation_spritesheetv3_left_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 170
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53, y: 85}
+        - {x: -60, y: 85}
+        - {x: -85, y: 48}
+        - {x: -85, y: -47}
+        - {x: -52, y: -85}
+        - {x: 40, y: -85}
+        - {x: 85, y: -49}
+        - {x: 85, y: 50}
+        - {x: 74, y: 81}
+    - name: khione_lvl2_animation_spritesheetv3_left_3
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 170
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50, y: 85}
+        - {x: -85, y: 41}
+        - {x: -85, y: -56}
+        - {x: -51, y: -85}
+        - {x: 45, y: -85}
+        - {x: 85, y: -41}
+        - {x: 85, y: 52}
+        - {x: 51, y: 85}
+    - name: khione_lvl2_animation_spritesheetv3_left_4
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 0
+        width: 170
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76, y: 74}
+        - {x: 40, y: 84}
+        - {x: -58, y: 84}
+        - {x: -85, y: 54}
+        - {x: -85, y: -53}
+        - {x: -41, y: -85}
+        - {x: 32, y: -85}
+        - {x: 37, y: -84}
+        - {x: 80, y: -72}
+        - {x: 85, y: -52}
+        - {x: 85, y: 66}
+    - name: khione_lvl2_animation_spritesheetv3_left_5
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 0
+        width: 170
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: 85}
+        - {x: -42, y: 85}
+        - {x: -55, y: 74}
+        - {x: -84, y: 36}
+        - {x: -85, y: 33}
+        - {x: -85, y: -40}
+        - {x: -49, y: -85}
+        - {x: 47, y: -85}
+        - {x: 83, y: -55}
+        - {x: 83, y: 70}
+        - {x: 81, y: 76}
+    - name: khione_lvl2_animation_spritesheetv3_left_6
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 0
+        width: 170
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53, y: 85}
+        - {x: -60, y: 85}
+        - {x: -85, y: 48}
+        - {x: -85, y: -47}
+        - {x: -52, y: -85}
+        - {x: 40, y: -85}
+        - {x: 85, y: -49}
+        - {x: 85, y: 50}
+        - {x: 74, y: 81}
+    - name: khione_lvl2_animation_spritesheetv3_left_7
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 0
+        width: 170
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50, y: 85}
+        - {x: -85, y: 41}
+        - {x: -85, y: -56}
+        - {x: -51, y: -85}
+        - {x: 45, y: -85}
+        - {x: 85, y: -41}
+        - {x: 85, y: 52}
+        - {x: 51, y: 85}
+    - name: khione_lvl2_animation_spritesheetv3_left_8
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 0
+        width: 170
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76, y: 74}
+        - {x: 40, y: 84}
+        - {x: -58, y: 84}
+        - {x: -85, y: 54}
+        - {x: -85, y: -53}
+        - {x: -41, y: -85}
+        - {x: 32, y: -85}
+        - {x: 37, y: -84}
+        - {x: 80, y: -72}
+        - {x: 85, y: -52}
+        - {x: 85, y: 66}
+    - name: khione_lvl2_animation_spritesheetv3_left_9
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 0
+        width: 170
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: 85}
+        - {x: -42, y: 85}
+        - {x: -55, y: 74}
+        - {x: -84, y: 36}
+        - {x: -85, y: 33}
+        - {x: -85, y: -40}
+        - {x: -49, y: -85}
+        - {x: 47, y: -85}
+        - {x: 83, y: -55}
+        - {x: 83, y: 70}
+        - {x: 81, y: 76}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,586 @@
+fileFormatVersion: 2
+guid: d78e0806f21413545b2b27c007769f64
+timeCreated: 1470332237
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Spritesheet_TankEnemy_Attacking_Side_0
+    21300002: Spritesheet_TankEnemy_Attacking_Side_1
+    21300004: Spritesheet_TankEnemy_Attacking_Side_2
+    21300006: Spritesheet_TankEnemy_Attacking_Side_3
+    21300008: Spritesheet_TankEnemy_Attacking_Side_4
+    21300010: Spritesheet_TankEnemy_Attacking_Side_5
+    21300012: Spritesheet_TankEnemy_Attacking_Side_6
+    21300014: Spritesheet_TankEnemy_Attacking_Side_7
+    21300016: Spritesheet_TankEnemy_Attacking_Side_8
+    21300018: Spritesheet_TankEnemy_Attacking_Side_9
+    21300020: Spritesheet_TankEnemy_Attacking_Side_10
+    21300022: Spritesheet_TankEnemy_Attacking_Side_11
+    21300024: Spritesheet_TankEnemy_Attacking_Side_12
+    21300026: Spritesheet_TankEnemy_Attacking_Side_13
+    21300028: Spritesheet_TankEnemy_Attacking_Side_14
+    21300030: Spritesheet_TankEnemy_Attacking_Side_15
+    21300032: Spritesheet_TankEnemy_Attacking_Side_16
+    21300034: Spritesheet_TankEnemy_Attacking_Side_17
+    21300036: Spritesheet_TankEnemy_Attacking_Side_18
+    21300038: Spritesheet_TankEnemy_Attacking_Side_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Spritesheet_TankEnemy_Attacking_Side_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: -40}
+        - {x: 26, y: -40}
+        - {x: 33, y: -31}
+        - {x: 33, y: 3}
+        - {x: 22, y: 29}
+        - {x: -7, y: 29}
+        - {x: -10, y: 28}
+        - {x: -12, y: 9}
+        - {x: -13, y: -9}
+        - {x: -14, y: -14}
+        - {x: -13, y: -11}
+        - {x: -13, y: -8}
+        - {x: -16, y: -3}
+        - {x: -29, y: 2}
+        - {x: -38, y: -6}
+        - {x: -38, y: -30}
+        - {x: -37, y: -35}
+        - {x: -10, y: -40}
+        - {x: 10, y: -40}
+        - {x: 10, y: -32}
+    - name: Spritesheet_TankEnemy_Attacking_Side_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: -40}
+        - {x: 25, y: -40}
+        - {x: 33, y: -23}
+        - {x: 33, y: 1}
+        - {x: 19, y: 29}
+        - {x: -19, y: 29}
+        - {x: -40, y: 10}
+        - {x: -40, y: -25}
+        - {x: -39, y: -31}
+        - {x: -20, y: -31}
+        - {x: -18, y: -26}
+        - {x: -18, y: -24}
+        - {x: -20, y: -20}
+        - {x: -19, y: -22}
+        - {x: -15, y: -26}
+        - {x: -6, y: -40}
+        - {x: 7, y: -40}
+        - {x: 9, y: -38}
+        - {x: 10, y: -35}
+        - {x: 10, y: -31}
+    - name: Spritesheet_TankEnemy_Attacking_Side_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: 29}
+        - {x: -31, y: 29}
+        - {x: -40, y: 26}
+        - {x: -40, y: -18}
+        - {x: -29, y: -26}
+        - {x: -9, y: -40}
+        - {x: 31, y: -40}
+        - {x: 33, y: -39}
+        - {x: 35, y: -27}
+        - {x: 35, y: 17}
+    - name: Spritesheet_TankEnemy_Attacking_Side_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: -40}
+        - {x: 26, y: -40}
+        - {x: 27, y: -38}
+        - {x: 34, y: -20}
+        - {x: 35, y: -17}
+        - {x: 35, y: -6}
+        - {x: 20, y: 28}
+        - {x: -12, y: 28}
+        - {x: -37, y: 11}
+        - {x: -40, y: 5}
+        - {x: -40, y: -13}
+        - {x: -38, y: -15}
+        - {x: -31, y: -23}
+        - {x: -15, y: -23}
+        - {x: -8, y: -18}
+        - {x: -7, y: -15}
+        - {x: -8, y: -15}
+        - {x: -8, y: -24}
+        - {x: -4, y: -29}
+        - {x: -3, y: -37}
+        - {x: -1, y: -40}
+        - {x: 6, y: -40}
+        - {x: 12, y: -36}
+        - {x: 12, y: -30}
+    - name: Spritesheet_TankEnemy_Attacking_Side_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 240
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 30}
+        - {x: -30, y: 20}
+        - {x: -40, y: 12}
+        - {x: -40, y: -15}
+        - {x: -38, y: -20}
+        - {x: -7, y: -40}
+        - {x: 8, y: -40}
+        - {x: 11, y: -38}
+        - {x: 14, y: -34}
+        - {x: 14, y: -31}
+        - {x: 14, y: -40}
+        - {x: 33, y: -40}
+        - {x: 38, y: -33}
+        - {x: 38, y: 11}
+        - {x: 28, y: 30}
+    - name: Spritesheet_TankEnemy_Attacking_Side_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 29}
+        - {x: -5, y: 29}
+        - {x: -9, y: 16}
+        - {x: -10, y: 12}
+        - {x: -10, y: 13}
+        - {x: -18, y: 26}
+        - {x: -38, y: 20}
+        - {x: -40, y: 18}
+        - {x: -40, y: -1}
+        - {x: -37, y: -9}
+        - {x: -31, y: -6}
+        - {x: -27, y: 0}
+        - {x: -28, y: 0}
+        - {x: -29, y: -3}
+        - {x: -29, y: -5}
+        - {x: -28, y: -8}
+        - {x: -25, y: -11}
+        - {x: -21, y: -14}
+        - {x: -14, y: -11}
+        - {x: -13, y: -25}
+        - {x: -7, y: -37}
+        - {x: -5, y: -40}
+        - {x: -2, y: -40}
+        - {x: 5, y: -38}
+        - {x: 8, y: -34}
+        - {x: 8, y: -32}
+        - {x: 9, y: -40}
+        - {x: 24, y: -40}
+        - {x: 26, y: -38}
+        - {x: 33, y: -25}
+        - {x: 33, y: 2}
+    - name: Spritesheet_TankEnemy_Attacking_Side_6
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: -31}
+        - {x: -31, y: -40}
+        - {x: 24, y: -40}
+        - {x: 28, y: -36}
+        - {x: 28, y: 16}
+        - {x: 19, y: 30}
+        - {x: -35, y: 30}
+        - {x: -37, y: 27}
+    - name: Spritesheet_TankEnemy_Attacking_Side_7
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: -40}
+        - {x: 30, y: -40}
+        - {x: 30, y: 16}
+        - {x: 28, y: 33}
+        - {x: -28, y: 33}
+    - name: Spritesheet_TankEnemy_Attacking_Side_8
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 35}
+        - {x: -20, y: 35}
+        - {x: -20, y: -40}
+        - {x: 30, y: -40}
+        - {x: 35, y: -28}
+        - {x: 35, y: 11}
+        - {x: 31, y: 28}
+    - name: Spritesheet_TankEnemy_Attacking_Side_9
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 36}
+        - {x: -10, y: 31}
+        - {x: -9, y: 28}
+        - {x: -7, y: 26}
+        - {x: -3, y: 25}
+        - {x: -7, y: 26}
+        - {x: -14, y: 26}
+        - {x: -17, y: 25}
+        - {x: -17, y: -40}
+        - {x: 34, y: -40}
+        - {x: 37, y: -35}
+        - {x: 37, y: 8}
+        - {x: 23, y: 36}
+    - name: Spritesheet_TankEnemy_Attacking_Side_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 36}
+        - {x: -23, y: 36}
+        - {x: -31, y: 33}
+        - {x: -31, y: -7}
+        - {x: -17, y: -40}
+        - {x: 26, y: -40}
+        - {x: 27, y: -31}
+        - {x: 27, y: 16}
+        - {x: 13, y: 25}
+    - name: Spritesheet_TankEnemy_Attacking_Side_11
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 32}
+        - {x: -40, y: -17}
+        - {x: -25, y: -40}
+        - {x: 32, y: -40}
+        - {x: 32, y: 22}
+        - {x: 22, y: 32}
+      - - {x: 36, y: 13}
+        - {x: 36, y: 3}
+        - {x: 37, y: -1}
+        - {x: 40, y: -1}
+        - {x: 40, y: 14}
+        - {x: 39, y: 14}
+    - name: Spritesheet_TankEnemy_Attacking_Side_12
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 37}
+        - {x: -33, y: 37}
+        - {x: -40, y: 19}
+        - {x: -40, y: -8}
+        - {x: -29, y: -9}
+        - {x: -28, y: -7}
+        - {x: -28, y: 0}
+        - {x: -28, y: -6}
+        - {x: -24, y: -14}
+        - {x: -5, y: -40}
+        - {x: 40, y: -40}
+        - {x: 40, y: 12}
+    - name: Spritesheet_TankEnemy_Attacking_Side_13
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 30}
+        - {x: -40, y: 10}
+        - {x: -40, y: -27}
+        - {x: -29, y: -40}
+        - {x: 40, y: -40}
+        - {x: 40, y: 15}
+        - {x: 25, y: 30}
+    - name: Spritesheet_TankEnemy_Attacking_Side_14
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 80
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 29}
+        - {x: -9, y: 28}
+        - {x: -12, y: 27}
+        - {x: -11, y: 7}
+        - {x: -22, y: 21}
+        - {x: -26, y: 24}
+        - {x: -29, y: 25}
+        - {x: -40, y: 15}
+        - {x: -40, y: -40}
+        - {x: 36, y: -40}
+        - {x: 40, y: -24}
+        - {x: 40, y: 16}
+        - {x: 22, y: 29}
+      - - {x: 16, y: 40}
+        - {x: 17, y: 37}
+        - {x: 28, y: 37}
+        - {x: 30, y: 39}
+        - {x: 30, y: 40}
+    - name: Spritesheet_TankEnemy_Attacking_Side_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 28}
+        - {x: -12, y: 28}
+        - {x: -15, y: 27}
+        - {x: -40, y: -11}
+        - {x: -40, y: -29}
+        - {x: -39, y: -34}
+        - {x: -33, y: -40}
+        - {x: -24, y: -40}
+        - {x: -11, y: -34}
+        - {x: -13, y: -29}
+        - {x: -14, y: -27}
+        - {x: -17, y: -26}
+        - {x: -15, y: -27}
+        - {x: -13, y: -27}
+        - {x: -9, y: -26}
+        - {x: -5, y: -40}
+        - {x: 35, y: -40}
+        - {x: 40, y: -26}
+        - {x: 40, y: 11}
+    - name: Spritesheet_TankEnemy_Attacking_Side_16
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 29}
+        - {x: -40, y: 5}
+        - {x: -40, y: -33}
+        - {x: -30, y: -38}
+        - {x: -21, y: -37}
+        - {x: -16, y: -35}
+        - {x: -12, y: -31}
+        - {x: -12, y: -29}
+        - {x: -15, y: -26}
+        - {x: -13, y: -27}
+        - {x: -3, y: -31}
+        - {x: -5, y: -40}
+        - {x: 40, y: -40}
+        - {x: 40, y: 29}
+    - name: Spritesheet_TankEnemy_Attacking_Side_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 27}
+        - {x: -40, y: 0}
+        - {x: -40, y: -36}
+        - {x: -36, y: -40}
+        - {x: 35, y: -40}
+        - {x: 35, y: 11}
+        - {x: 21, y: 27}
+    - name: Spritesheet_TankEnemy_Attacking_Side_18
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 27}
+        - {x: -39, y: 13}
+        - {x: -39, y: -39}
+        - {x: -37, y: -40}
+        - {x: 27, y: -40}
+        - {x: 32, y: -29}
+        - {x: 32, y: -4}
+        - {x: 18, y: 27}
+      - - {x: -2, y: 40}
+        - {x: -1, y: 37}
+        - {x: 8, y: 37}
+        - {x: 10, y: 39}
+        - {x: 10, y: 40}
+      - - {x: 24, y: 40}
+        - {x: 25, y: 37}
+        - {x: 29, y: 37}
+        - {x: 31, y: 39}
+        - {x: 31, y: 40}
+    - name: Spritesheet_TankEnemy_Attacking_Side_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: -40}
+        - {x: 33, y: -24}
+        - {x: 33, y: 28}
+        - {x: -27, y: 28}
+        - {x: -37, y: 23}
+        - {x: -37, y: -28}
+        - {x: -28, y: -33}
+        - {x: -20, y: -34}
+        - {x: -16, y: -33}
+        - {x: -14, y: -31}
+        - {x: -14, y: -28}
+        - {x: -17, y: -25}
+        - {x: -13, y: -28}
+        - {x: -7, y: -28}
+        - {x: -7, y: -35}
+        - {x: -6, y: -40}
+        - {x: 9, y: -40}
+        - {x: 10, y: -37}
+        - {x: 10, y: -32}
+        - {x: 10, y: -40}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

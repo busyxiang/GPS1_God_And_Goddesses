@@ -1,0 +1,451 @@
+fileFormatVersion: 2
+guid: d4c7dee42b590bd4397b901de49e7bac
+timeCreated: 1468067945
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Coin Resize_0
+    21300002: Coin Resize_1
+    21300004: Coin Resize_2
+    21300006: Coin Resize_3
+    21300008: Coin Resize_4
+    21300010: Coin Resize_5
+    21300012: Coin Resize_6
+    21300014: Coin Resize_7
+    21300016: Coin Resize_8
+    21300018: Coin Resize_9
+    21300020: Coin Resize_10
+    21300022: Coin Resize_11
+    21300024: Coin Resize_12
+    21300026: Coin Resize_13
+    21300028: Coin Resize_14
+    21300030: Coin Resize_15
+    21300032: Coin Resize_16
+    21300034: Coin Resize_17
+    21300036: Coin Resize_18
+    21300038: Coin Resize_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Coin Resize_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -13, y: 11}
+        - {x: -13, y: -1}
+        - {x: -12, y: -14}
+        - {x: -9, y: -15}
+        - {x: 9, y: -15}
+        - {x: 12, y: -8}
+        - {x: 12, y: 16}
+    - name: Coin Resize_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 15}
+        - {x: -13, y: 14}
+        - {x: -13, y: -15}
+        - {x: 12, y: -15}
+        - {x: 12, y: 11}
+        - {x: 8, y: 15}
+    - name: Coin Resize_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 15}
+        - {x: -13, y: 11}
+        - {x: -13, y: -15}
+        - {x: 10, y: -15}
+        - {x: 12, y: -11}
+        - {x: 12, y: 7}
+        - {x: 9, y: 15}
+    - name: Coin Resize_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 14}
+        - {x: -13, y: 12}
+        - {x: -13, y: -14}
+        - {x: -10, y: -15}
+        - {x: 11, y: -15}
+        - {x: 12, y: -10}
+        - {x: 12, y: 14}
+    - name: Coin Resize_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 14}
+        - {x: -10, y: 14}
+        - {x: -13, y: 13}
+        - {x: -13, y: -7}
+        - {x: -8, y: -15}
+        - {x: 6, y: -15}
+        - {x: 12, y: -9}
+        - {x: 12, y: 9}
+    - name: Coin Resize_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 13}
+        - {x: -13, y: 7}
+        - {x: -13, y: -12}
+        - {x: -12, y: -15}
+        - {x: 10, y: -15}
+        - {x: 12, y: -14}
+        - {x: 12, y: 8}
+        - {x: 6, y: 13}
+    - name: Coin Resize_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 13}
+        - {x: -13, y: 10}
+        - {x: -13, y: -14}
+        - {x: -9, y: -15}
+        - {x: 9, y: -15}
+        - {x: 12, y: -8}
+        - {x: 12, y: 12}
+        - {x: 8, y: 13}
+    - name: Coin Resize_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 12}
+        - {x: -13, y: 6}
+        - {x: -13, y: -14}
+        - {x: -9, y: -15}
+        - {x: 9, y: -15}
+        - {x: 12, y: -6}
+        - {x: 12, y: 7}
+        - {x: 6, y: 12}
+    - name: Coin Resize_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 12}
+        - {x: -8, y: 12}
+        - {x: -13, y: 6}
+        - {x: -13, y: -14}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 12, y: -14}
+        - {x: 12, y: 6}
+    - name: Coin Resize_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 11}
+        - {x: -13, y: 4}
+        - {x: -13, y: -4}
+        - {x: -12, y: -12}
+        - {x: -9, y: -15}
+        - {x: 8, y: -15}
+        - {x: 12, y: -14}
+        - {x: 12, y: 9}
+        - {x: 8, y: 11}
+    - name: Coin Resize_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 11}
+        - {x: -13, y: 4}
+        - {x: -13, y: -4}
+        - {x: -12, y: -12}
+        - {x: -9, y: -15}
+        - {x: 8, y: -15}
+        - {x: 12, y: -14}
+        - {x: 12, y: 9}
+        - {x: 8, y: 11}
+    - name: Coin Resize_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 12}
+        - {x: -8, y: 12}
+        - {x: -13, y: 6}
+        - {x: -13, y: -14}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 12, y: -14}
+        - {x: 12, y: 6}
+    - name: Coin Resize_12
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 12}
+        - {x: -13, y: 6}
+        - {x: -13, y: -14}
+        - {x: -9, y: -15}
+        - {x: 9, y: -15}
+        - {x: 12, y: -6}
+        - {x: 12, y: 7}
+        - {x: 6, y: 12}
+    - name: Coin Resize_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 13}
+        - {x: -13, y: 10}
+        - {x: -13, y: -14}
+        - {x: -9, y: -15}
+        - {x: 9, y: -15}
+        - {x: 12, y: -8}
+        - {x: 12, y: 12}
+        - {x: 8, y: 13}
+    - name: Coin Resize_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 13}
+        - {x: -13, y: 7}
+        - {x: -13, y: -12}
+        - {x: -12, y: -15}
+        - {x: 10, y: -15}
+        - {x: 12, y: -14}
+        - {x: 12, y: 8}
+        - {x: 6, y: 13}
+    - name: Coin Resize_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 14}
+        - {x: -10, y: 14}
+        - {x: -13, y: 13}
+        - {x: -13, y: -7}
+        - {x: -8, y: -15}
+        - {x: 6, y: -15}
+        - {x: 12, y: -9}
+        - {x: 12, y: 9}
+    - name: Coin Resize_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 14}
+        - {x: -13, y: 12}
+        - {x: -13, y: -14}
+        - {x: -10, y: -15}
+        - {x: 11, y: -15}
+        - {x: 12, y: -10}
+        - {x: 12, y: 14}
+    - name: Coin Resize_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 15}
+        - {x: -13, y: 11}
+        - {x: -13, y: -15}
+        - {x: 10, y: -15}
+        - {x: 12, y: -11}
+        - {x: 12, y: 7}
+        - {x: 9, y: 15}
+    - name: Coin Resize_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 15}
+        - {x: -13, y: 14}
+        - {x: -13, y: -15}
+        - {x: 12, y: -15}
+        - {x: 12, y: 11}
+        - {x: 8, y: 15}
+    - name: Coin Resize_19
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -13, y: 11}
+        - {x: -13, y: -1}
+        - {x: -12, y: -14}
+        - {x: -9, y: -15}
+        - {x: 9, y: -15}
+        - {x: 12, y: -8}
+        - {x: 12, y: 16}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

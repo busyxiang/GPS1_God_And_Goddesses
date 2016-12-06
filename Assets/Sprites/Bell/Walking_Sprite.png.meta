@@ -1,0 +1,629 @@
+fileFormatVersion: 2
+guid: 44ed650d1d5d538429ce117de76f9eec
+timeCreated: 1466148690
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Walking_Sprite_0
+    21300002: Walking_Sprite_1
+    21300004: Walking_Sprite_2
+    21300006: Walking_Sprite_3
+    21300008: Walking_Sprite_4
+    21300010: Walking_Sprite_5
+    21300012: Walking_Sprite_6
+    21300014: Walking_Sprite_7
+    21300016: Walking_Sprite_8
+    21300018: Walking_Sprite_9
+    21300020: Walking_Sprite_10
+    21300022: Walking_Sprite_11
+    21300024: Walking_Sprite_12
+    21300026: Walking_Sprite_13
+    21300028: Walking_Sprite_14
+    21300030: Walking_Sprite_15
+    21300032: Walking_Sprite_16
+    21300034: Walking_Sprite_17
+    21300036: Walking_Sprite_18
+    21300038: Walking_Sprite_19
+    21300040: Walking_Sprite_20
+    21300042: Walking_Sprite_21
+    21300044: Walking_Sprite_22
+    21300046: Walking_Sprite_23
+    21300048: Walking_Sprite_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Walking_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 132}
+        - {x: -34, y: 132}
+        - {x: -46, y: 129}
+        - {x: -118, y: 65}
+        - {x: -118, y: -74}
+        - {x: -80, y: -129}
+        - {x: 68, y: -129}
+        - {x: 68, y: 65}
+        - {x: 2, y: 131}
+    - name: Walking_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1200
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 132}
+        - {x: -41, y: 132}
+        - {x: -110, y: 91}
+        - {x: -110, y: -118}
+        - {x: -55, y: -129}
+        - {x: 71, y: -129}
+        - {x: 71, y: -12}
+        - {x: 69, y: 15}
+        - {x: 32, y: 103}
+        - {x: 15, y: 118}
+    - name: Walking_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1200
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 118}
+        - {x: 0, y: 127}
+        - {x: -6, y: 132}
+        - {x: -34, y: 132}
+        - {x: -46, y: 129}
+        - {x: -93, y: 83}
+        - {x: -102, y: 68}
+        - {x: -102, y: 38}
+        - {x: -98, y: -13}
+        - {x: -58, y: -46}
+        - {x: -68, y: -109}
+        - {x: -57, y: -123}
+        - {x: -25, y: -128}
+        - {x: 74, y: -128}
+        - {x: 74, y: 41}
+        - {x: 25, y: 107}
+    - name: Walking_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1200
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -81, y: 132}
+        - {x: -95, y: 96}
+        - {x: -95, y: -91}
+        - {x: -74, y: -129}
+        - {x: 68, y: -129}
+        - {x: 77, y: -126}
+        - {x: 77, y: 30}
+        - {x: 13, y: 132}
+    - name: Walking_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1200
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -67, y: 130}
+        - {x: -90, y: 73}
+        - {x: -90, y: -24}
+        - {x: -69, y: -34}
+        - {x: -54, y: -32}
+        - {x: -18, y: -16}
+        - {x: -15, y: -12}
+        - {x: -15, y: -9}
+        - {x: -15, y: -21}
+        - {x: -32, y: -23}
+        - {x: -61, y: -130}
+        - {x: 82, y: -130}
+        - {x: 82, y: 64}
+        - {x: 11, y: 130}
+    - name: Walking_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -84, y: 131}
+        - {x: -88, y: 119}
+        - {x: -92, y: 110}
+        - {x: -92, y: -128}
+        - {x: 75, y: -128}
+        - {x: 80, y: -120}
+        - {x: 80, y: 73}
+        - {x: 23, y: 131}
+    - name: Walking_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 900
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: 130}
+        - {x: -43, y: 127}
+        - {x: -100, y: 95}
+        - {x: -100, y: -129}
+        - {x: 75, y: -129}
+        - {x: 75, y: 95}
+        - {x: 28, y: 130}
+    - name: Walking_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 900
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 130}
+        - {x: -38, y: 130}
+        - {x: -45, y: 127}
+        - {x: -105, y: 113}
+        - {x: -105, y: -129}
+        - {x: 73, y: -129}
+        - {x: 73, y: -9}
+        - {x: 49, y: 109}
+    - name: Walking_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 900
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50, y: -130}
+        - {x: 71, y: -117}
+        - {x: 71, y: -4}
+        - {x: 30, y: 115}
+        - {x: 2, y: 129}
+        - {x: -32, y: 129}
+        - {x: -44, y: 125}
+        - {x: -111, y: 56}
+        - {x: -111, y: 26}
+        - {x: -95, y: -19}
+        - {x: -85, y: -30}
+        - {x: -58, y: -49}
+        - {x: -43, y: -43}
+        - {x: -17, y: -11}
+        - {x: -16, y: -8}
+        - {x: -16, y: -9}
+        - {x: -17, y: -13}
+        - {x: -29, y: -44}
+        - {x: -35, y: -64}
+        - {x: -41, y: -117}
+        - {x: -36, y: -130}
+        - {x: 9, y: -130}
+        - {x: 13, y: -109}
+        - {x: 19, y: -129}
+        - {x: 24, y: -130}
+    - name: Walking_Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 900
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 128}
+        - {x: -46, y: 125}
+        - {x: -118, y: 55}
+        - {x: -118, y: -38}
+        - {x: -64, y: -130}
+        - {x: 68, y: -130}
+        - {x: 68, y: 66}
+        - {x: 13, y: 128}
+    - name: Walking_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -111, y: 129}
+        - {x: -111, y: -12}
+        - {x: -91, y: -43}
+        - {x: -54, y: -53}
+        - {x: -38, y: -43}
+        - {x: -35, y: -59}
+        - {x: -36, y: -129}
+        - {x: 68, y: -129}
+        - {x: 69, y: -126}
+        - {x: 69, y: 129}
+    - name: Walking_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 600
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 130}
+        - {x: -45, y: 127}
+        - {x: -108, y: 84}
+        - {x: -108, y: -52}
+        - {x: -82, y: -128}
+        - {x: 58, y: -128}
+        - {x: 69, y: -3}
+        - {x: 69, y: 61}
+        - {x: 18, y: 130}
+    - name: Walking_Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 600
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 130}
+        - {x: -80, y: 130}
+        - {x: -102, y: 112}
+        - {x: -102, y: -44}
+        - {x: -21, y: -128}
+        - {x: 48, y: -128}
+        - {x: 71, y: -54}
+        - {x: 71, y: 43}
+        - {x: 38, y: 112}
+    - name: Walking_Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 600
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 131}
+        - {x: -57, y: 131}
+        - {x: -97, y: 91}
+        - {x: -97, y: 12}
+        - {x: -88, y: -36}
+        - {x: -55, y: -49}
+        - {x: -42, y: -47}
+        - {x: -19, y: -124}
+        - {x: -13, y: -128}
+        - {x: -5, y: -129}
+        - {x: 38, y: -129}
+        - {x: 41, y: -128}
+        - {x: 73, y: -22}
+        - {x: 73, y: 44}
+        - {x: 45, y: 117}
+    - name: Walking_Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 600
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 132}
+        - {x: -47, y: 130}
+        - {x: -93, y: 73}
+        - {x: -93, y: -35}
+        - {x: -34, y: -129}
+        - {x: -17, y: -132}
+        - {x: 49, y: -132}
+        - {x: 75, y: -77}
+        - {x: 75, y: 60}
+        - {x: 13, y: 132}
+    - name: Walking_Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 132}
+        - {x: -32, y: 132}
+        - {x: -44, y: 129}
+        - {x: -41, y: 35}
+        - {x: -37, y: 19}
+        - {x: -67, y: 46}
+        - {x: -95, y: 65}
+        - {x: -95, y: -56}
+        - {x: -46, y: -132}
+        - {x: 42, y: -132}
+        - {x: 75, y: 2}
+        - {x: 75, y: 40}
+        - {x: 20, y: 123}
+    - name: Walking_Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 300
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -102, y: 90}
+        - {x: -102, y: -42}
+        - {x: -49, y: -52}
+        - {x: -42, y: -43}
+        - {x: -36, y: -61}
+        - {x: -26, y: -132}
+        - {x: 71, y: -132}
+        - {x: 71, y: 132}
+        - {x: -34, y: 132}
+        - {x: -46, y: 129}
+    - name: Walking_Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 300
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 69, y: 30}
+        - {x: 37, y: 116}
+        - {x: 1, y: 132}
+        - {x: -36, y: 132}
+        - {x: -46, y: 129}
+        - {x: -108, y: 81}
+        - {x: -108, y: -3}
+        - {x: -66, y: -84}
+        - {x: -32, y: -131}
+        - {x: -20, y: -133}
+        - {x: -1, y: -133}
+        - {x: 49, y: -128}
+        - {x: 59, y: -123}
+        - {x: 69, y: -63}
+    - name: Walking_Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 300
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47, y: 132}
+        - {x: -79, y: 79}
+        - {x: -109, y: 68}
+        - {x: -113, y: 67}
+        - {x: -113, y: -50}
+        - {x: -80, y: -133}
+        - {x: 67, y: -133}
+        - {x: 67, y: 66}
+        - {x: 32, y: 132}
+    - name: Walking_Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 300
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 132}
+        - {x: -46, y: 129}
+        - {x: -118, y: 55}
+        - {x: -118, y: -42}
+        - {x: -67, y: -130}
+        - {x: 68, y: -130}
+        - {x: 68, y: 50}
+        - {x: 15, y: 132}
+    - name: Walking_Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 134}
+        - {x: -32, y: 134}
+        - {x: -44, y: 131}
+        - {x: -116, y: 76}
+        - {x: -116, y: -29}
+        - {x: -69, y: -127}
+        - {x: 70, y: -127}
+        - {x: 70, y: 40}
+        - {x: 42, y: 109}
+    - name: Walking_Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 132}
+        - {x: -46, y: 129}
+        - {x: -118, y: 55}
+        - {x: -118, y: -44}
+        - {x: -73, y: -129}
+        - {x: 68, y: -129}
+        - {x: 68, y: 73}
+        - {x: 15, y: 118}
+        - {x: 0, y: 127}
+        - {x: -6, y: 132}
+    - name: Walking_Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -118, y: 55}
+        - {x: -118, y: -70}
+        - {x: -97, y: -129}
+        - {x: 69, y: -129}
+        - {x: 69, y: 8}
+        - {x: 43, y: 108}
+        - {x: -3, y: 132}
+        - {x: -34, y: 132}
+        - {x: -46, y: 129}
+    - name: Walking_Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 132}
+        - {x: -90, y: 132}
+        - {x: -118, y: 74}
+        - {x: -118, y: -24}
+        - {x: -67, y: -81}
+        - {x: -68, y: -129}
+        - {x: 69, y: -129}
+        - {x: 69, y: 50}
+        - {x: 42, y: 119}
+    - name: Walking_Sprite_24
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 69, y: -129}
+        - {x: 69, y: 53}
+        - {x: 18, y: 122}
+        - {x: -2, y: 132}
+        - {x: -34, y: 132}
+        - {x: -46, y: 129}
+        - {x: -118, y: 55}
+        - {x: -118, y: -57}
+        - {x: -93, y: -114}
+        - {x: -48, y: -129}
+        - {x: -30, y: -129}
+        - {x: -28, y: -128}
+        - {x: -8, y: -87}
+        - {x: -9, y: -83}
+        - {x: 9, y: -129}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

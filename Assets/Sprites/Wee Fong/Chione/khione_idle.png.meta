@@ -1,0 +1,344 @@
+fileFormatVersion: 2
+guid: d9c296ea6eae1194d907d798228d43d0
+timeCreated: 1468839397
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: khione_idle_0
+    21300002: khione_idle_1
+    21300004: khione_idle_2
+    21300006: khione_idle_3
+    21300008: khione_idle_4
+    21300010: khione_idle_5
+    21300012: khione_idle_6
+    21300014: khione_idle_7
+    21300016: khione_idle_8
+    21300018: khione_idle_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: khione_idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 32}
+        - {x: -27, y: 13}
+        - {x: -27, y: -20}
+        - {x: -17, y: -32}
+        - {x: 17, y: -32}
+        - {x: 23, y: -31}
+        - {x: 29, y: -15}
+        - {x: 29, y: 21}
+        - {x: 16, y: 32}
+      - - {x: -26, y: 3}
+        - {x: -23, y: 4}
+        - {x: -23, y: 7}
+        - {x: -26, y: 8}
+        - {x: -28, y: 6}
+    - name: khione_idle_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 24}
+        - {x: 9, y: 32}
+        - {x: -11, y: 32}
+        - {x: -20, y: 28}
+        - {x: -29, y: 5}
+        - {x: -29, y: -13}
+        - {x: -14, y: -32}
+        - {x: 22, y: -32}
+        - {x: 29, y: -22}
+        - {x: 29, y: 2}
+        - {x: 23, y: 4}
+      - - {x: -29, y: 7}
+        - {x: -29, y: 6}
+        - {x: -26, y: 1}
+        - {x: -23, y: 2}
+        - {x: -22, y: 6}
+        - {x: -25, y: 10}
+        - {x: -26, y: 10}
+    - name: khione_idle_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 32}
+        - {x: -30, y: 23}
+        - {x: -30, y: -15}
+        - {x: -18, y: -32}
+        - {x: 16, y: -32}
+        - {x: 30, y: -12}
+        - {x: 30, y: 20}
+        - {x: 20, y: 32}
+    - name: khione_idle_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 32}
+        - {x: -17, y: 22}
+        - {x: -18, y: 13}
+        - {x: -24, y: 17}
+        - {x: -30, y: 14}
+        - {x: -30, y: -10}
+        - {x: -22, y: -25}
+        - {x: -16, y: -32}
+        - {x: 19, y: -32}
+        - {x: 30, y: -5}
+        - {x: 30, y: 18}
+        - {x: 19, y: 32}
+    - name: khione_idle_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 31}
+        - {x: -31, y: 31}
+        - {x: -31, y: -16}
+        - {x: -26, y: -32}
+        - {x: 20, y: -32}
+        - {x: 31, y: -12}
+        - {x: 31, y: 17}
+        - {x: 28, y: 21}
+    - name: khione_idle_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 31}
+        - {x: -10, y: 31}
+        - {x: -30, y: 14}
+        - {x: -30, y: -11}
+        - {x: -17, y: -32}
+        - {x: 18, y: -32}
+        - {x: 31, y: -5}
+        - {x: 31, y: 7}
+      - - {x: 26, y: 19}
+        - {x: 22, y: 19}
+        - {x: 19, y: 15}
+        - {x: 19, y: 13}
+        - {x: 24, y: 7}
+        - {x: 26, y: 7}
+        - {x: 30, y: 11}
+        - {x: 30, y: 17}
+      - - {x: -26, y: 22}
+        - {x: -30, y: 19}
+        - {x: -30, y: 12}
+        - {x: -27, y: 10}
+        - {x: -23, y: 10}
+        - {x: -20, y: 13}
+        - {x: -20, y: 17}
+        - {x: -22, y: 22}
+    - name: khione_idle_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 32}
+        - {x: -16, y: 29}
+        - {x: -30, y: 0}
+        - {x: -30, y: -4}
+        - {x: -26, y: -7}
+        - {x: -18, y: -24}
+        - {x: -13, y: -32}
+        - {x: 17, y: -32}
+        - {x: 30, y: -8}
+        - {x: 30, y: 3}
+        - {x: 9, y: 32}
+      - - {x: 24, y: 23}
+        - {x: 20, y: 19}
+        - {x: 20, y: 17}
+        - {x: 24, y: 13}
+        - {x: 26, y: 13}
+        - {x: 29, y: 16}
+        - {x: 29, y: 20}
+        - {x: 26, y: 23}
+      - - {x: -29, y: 25}
+        - {x: -30, y: 23}
+        - {x: -30, y: 17}
+        - {x: -28, y: 15}
+        - {x: -25, y: 15}
+        - {x: -21, y: 18}
+        - {x: -21, y: 23}
+        - {x: -25, y: 25}
+    - name: khione_idle_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 32}
+        - {x: -29, y: 12}
+        - {x: -29, y: -20}
+        - {x: -21, y: -32}
+        - {x: 23, y: -32}
+        - {x: 29, y: -16}
+        - {x: 29, y: 3}
+        - {x: 7, y: 32}
+      - - {x: 21, y: 25}
+        - {x: 21, y: 22}
+        - {x: 24, y: 18}
+        - {x: 25, y: 18}
+        - {x: 28, y: 21}
+        - {x: 28, y: 25}
+        - {x: 26, y: 27}
+      - - {x: -29, y: 26}
+        - {x: -29, y: 23}
+        - {x: -26, y: 20}
+        - {x: -23, y: 21}
+        - {x: -22, y: 25}
+        - {x: -25, y: 28}
+        - {x: -27, y: 28}
+    - name: khione_idle_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 32}
+        - {x: -17, y: 30}
+        - {x: -19, y: 13}
+        - {x: -16, y: 8}
+        - {x: -24, y: -3}
+        - {x: -27, y: -9}
+        - {x: -27, y: -21}
+        - {x: -25, y: -28}
+        - {x: -19, y: -32}
+        - {x: 28, y: -32}
+        - {x: 28, y: 7}
+        - {x: 9, y: 32}
+      - - {x: 24, y: 25}
+        - {x: 27, y: 26}
+        - {x: 27, y: 29}
+        - {x: 24, y: 30}
+        - {x: 22, y: 28}
+      - - {x: -29, y: 29}
+        - {x: -28, y: 26}
+        - {x: -25, y: 26}
+        - {x: -23, y: 28}
+        - {x: -24, y: 31}
+        - {x: -27, y: 31}
+    - name: khione_idle_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 32}
+        - {x: -21, y: 20}
+        - {x: -17, y: 9}
+        - {x: -23, y: -8}
+        - {x: -24, y: -12}
+        - {x: -24, y: -30}
+        - {x: -19, y: -32}
+        - {x: 23, y: -32}
+        - {x: 25, y: -29}
+        - {x: 25, y: 3}
+        - {x: 10, y: 32}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 0b178405d1823cb4a8e277033e21cde5
+timeCreated: 1470321260
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Spritesheet_MiniEnemy_Walking_Side_0
+    21300002: Spritesheet_MiniEnemy_Walking_Side_1
+    21300004: Spritesheet_MiniEnemy_Walking_Side_2
+    21300006: Spritesheet_MiniEnemy_Walking_Side_3
+    21300008: Spritesheet_MiniEnemy_Walking_Side_4
+    21300010: Spritesheet_MiniEnemy_Walking_Side_5
+    21300012: Spritesheet_MiniEnemy_Walking_Side_6
+    21300014: Spritesheet_MiniEnemy_Walking_Side_7
+    21300016: Spritesheet_MiniEnemy_Walking_Side_8
+    21300018: Spritesheet_MiniEnemy_Walking_Side_9
+    21300020: Spritesheet_MiniEnemy_Walking_Side_10
+    21300022: Spritesheet_MiniEnemy_Walking_Side_11
+    21300024: Spritesheet_MiniEnemy_Walking_Side_12
+    21300026: Spritesheet_MiniEnemy_Walking_Side_13
+    21300028: Spritesheet_MiniEnemy_Walking_Side_14
+    21300030: Spritesheet_MiniEnemy_Walking_Side_15
+    21300032: Spritesheet_MiniEnemy_Walking_Side_16
+    21300034: Spritesheet_MiniEnemy_Walking_Side_17
+    21300036: Spritesheet_MiniEnemy_Walking_Side_18
+    21300038: Spritesheet_MiniEnemy_Walking_Side_19
+    21300040: Spritesheet_MiniEnemy_Walking_Side_20
+    21300042: Spritesheet_MiniEnemy_Walking_Side_21
+    21300044: Spritesheet_MiniEnemy_Walking_Side_22
+    21300046: Spritesheet_MiniEnemy_Walking_Side_23
+    21300048: Spritesheet_MiniEnemy_Walking_Side_24
+    21300050: Spritesheet_MiniEnemy_Walking_Side_25
+    21300052: Spritesheet_MiniEnemy_Walking_Side_26
+    21300054: Spritesheet_MiniEnemy_Walking_Side_27
+    21300056: Spritesheet_MiniEnemy_Walking_Side_28
+    21300058: Spritesheet_MiniEnemy_Walking_Side_29
+    21300060: Spritesheet_MiniEnemy_Walking_Side_30
+    21300062: Spritesheet_MiniEnemy_Walking_Side_31
+    21300064: Spritesheet_MiniEnemy_Walking_Side_32
+    21300066: Spritesheet_MiniEnemy_Walking_Side_33
+    21300068: Spritesheet_MiniEnemy_Walking_Side_34
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Spritesheet_MiniEnemy_Walking_Side_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 14}
+        - {x: -12, y: 13}
+        - {x: -25, y: -3}
+        - {x: -25, y: -17}
+        - {x: -17, y: -32}
+        - {x: 13, y: -32}
+        - {x: 13, y: 6}
+        - {x: 10, y: 14}
+    - name: Spritesheet_MiniEnemy_Walking_Side_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 15}
+        - {x: -7, y: 13}
+        - {x: -23, y: 3}
+        - {x: -23, y: -32}
+        - {x: 14, y: -32}
+        - {x: 16, y: -31}
+        - {x: 16, y: 11}
+        - {x: 8, y: 15}
+    - name: Spritesheet_MiniEnemy_Walking_Side_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -3}
+        - {x: -23, y: -19}
+        - {x: -18, y: -32}
+        - {x: 16, y: -32}
+        - {x: 16, y: -25}
+        - {x: 14, y: 9}
+        - {x: 11, y: 14}
+        - {x: -10, y: 14}
+    - name: Spritesheet_MiniEnemy_Walking_Side_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 14}
+        - {x: -22, y: 1}
+        - {x: -22, y: -9}
+        - {x: -18, y: -16}
+        - {x: -7, y: -32}
+        - {x: 18, y: -32}
+        - {x: 18, y: 9}
+        - {x: 12, y: 14}
+    - name: Spritesheet_MiniEnemy_Walking_Side_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: -32}
+        - {x: 18, y: -32}
+        - {x: 18, y: -7}
+        - {x: 15, y: 13}
+        - {x: 11, y: 14}
+        - {x: -6, y: 14}
+        - {x: -23, y: 0}
+        - {x: -23, y: -8}
+        - {x: -17, y: -13}
+        - {x: -6, y: -32}
+        - {x: 7, y: -32}
+        - {x: 8, y: -31}
+        - {x: 8, y: -29}
+        - {x: 8, y: -31}
+    - name: Spritesheet_MiniEnemy_Walking_Side_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 12}
+        - {x: 8, y: 14}
+        - {x: -6, y: 14}
+        - {x: -15, y: 10}
+        - {x: -23, y: -1}
+        - {x: -23, y: -20}
+        - {x: -5, y: -32}
+        - {x: 17, y: -32}
+        - {x: 17, y: -13}
+        - {x: 15, y: 3}
+    - name: Spritesheet_MiniEnemy_Walking_Side_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 14}
+        - {x: -22, y: -2}
+        - {x: -22, y: -22}
+        - {x: -3, y: -32}
+        - {x: 17, y: -32}
+        - {x: 17, y: 9}
+        - {x: 16, y: 14}
+    - name: Spritesheet_MiniEnemy_Walking_Side_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 14}
+        - {x: -25, y: 4}
+        - {x: -25, y: -15}
+        - {x: -2, y: -32}
+        - {x: 12, y: -32}
+        - {x: 14, y: -31}
+        - {x: 14, y: 11}
+        - {x: 13, y: 14}
+    - name: Spritesheet_MiniEnemy_Walking_Side_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 9}
+        - {x: 7, y: 14}
+        - {x: -7, y: 14}
+        - {x: -22, y: -6}
+        - {x: -23, y: -8}
+        - {x: -23, y: -15}
+        - {x: 0, y: -32}
+        - {x: 13, y: -32}
+        - {x: 15, y: -30}
+        - {x: 15, y: -28}
+        - {x: 16, y: -24}
+    - name: Spritesheet_MiniEnemy_Walking_Side_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 14}
+        - {x: -24, y: -9}
+        - {x: -24, y: -14}
+        - {x: -23, y: -16}
+        - {x: -5, y: -32}
+        - {x: 16, y: -32}
+        - {x: 16, y: 9}
+        - {x: 8, y: 14}
+    - name: Spritesheet_MiniEnemy_Walking_Side_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 14}
+        - {x: -22, y: -7}
+        - {x: -22, y: -20}
+        - {x: -2, y: -32}
+        - {x: 16, y: -32}
+        - {x: 16, y: 2}
+        - {x: 9, y: 14}
+    - name: Spritesheet_MiniEnemy_Walking_Side_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 15}
+        - {x: -23, y: -5}
+        - {x: -23, y: -24}
+        - {x: -6, y: -32}
+        - {x: 16, y: -32}
+        - {x: 16, y: 5}
+        - {x: 15, y: 15}
+    - name: Spritesheet_MiniEnemy_Walking_Side_12
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 14}
+        - {x: -23, y: 2}
+        - {x: -23, y: -22}
+        - {x: -15, y: -32}
+        - {x: 15, y: -32}
+        - {x: 15, y: 14}
+    - name: Spritesheet_MiniEnemy_Walking_Side_13
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 14}
+        - {x: -23, y: -7}
+        - {x: -23, y: -16}
+        - {x: -20, y: -25}
+        - {x: -9, y: -32}
+        - {x: 16, y: -32}
+        - {x: 16, y: 12}
+        - {x: 10, y: 14}
+    - name: Spritesheet_MiniEnemy_Walking_Side_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: -24}
+        - {x: -19, y: -32}
+        - {x: 15, y: -32}
+        - {x: 15, y: -4}
+        - {x: 10, y: 14}
+        - {x: -11, y: 14}
+        - {x: -24, y: 5}
+    - name: Spritesheet_MiniEnemy_Walking_Side_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 14}
+        - {x: -23, y: 1}
+        - {x: -23, y: -26}
+        - {x: -19, y: -32}
+        - {x: 16, y: -32}
+        - {x: 16, y: 11}
+        - {x: 9, y: 14}
+    - name: Spritesheet_MiniEnemy_Walking_Side_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 15}
+        - {x: -11, y: 15}
+        - {x: -23, y: 8}
+        - {x: -23, y: -15}
+        - {x: -10, y: -32}
+        - {x: 15, y: -32}
+        - {x: 16, y: -29}
+        - {x: 16, y: -7}
+        - {x: 13, y: 8}
+    - name: Spritesheet_MiniEnemy_Walking_Side_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 14}
+        - {x: -3, y: 14}
+        - {x: -22, y: -5}
+        - {x: -22, y: -15}
+        - {x: -17, y: -18}
+        - {x: -7, y: -32}
+        - {x: 17, y: -32}
+        - {x: 17, y: 12}
+    - name: Spritesheet_MiniEnemy_Walking_Side_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 14}
+        - {x: -22, y: 6}
+        - {x: -22, y: -25}
+        - {x: -18, y: -32}
+        - {x: 17, y: -32}
+        - {x: 17, y: 4}
+        - {x: 14, y: 14}
+    - name: Spritesheet_MiniEnemy_Walking_Side_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 14}
+        - {x: -23, y: 2}
+        - {x: -23, y: -20}
+        - {x: -13, y: -32}
+        - {x: 16, y: -32}
+        - {x: 16, y: 14}
+    - name: Spritesheet_MiniEnemy_Walking_Side_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 14}
+        - {x: -18, y: 2}
+        - {x: -23, y: -5}
+        - {x: -23, y: -24}
+        - {x: -12, y: -32}
+        - {x: 16, y: -32}
+        - {x: 16, y: 8}
+        - {x: 15, y: 14}
+    - name: Spritesheet_MiniEnemy_Walking_Side_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 15}
+        - {x: -7, y: 14}
+        - {x: -25, y: -1}
+        - {x: -25, y: -24}
+        - {x: -20, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: 1}
+        - {x: 10, y: 15}
+    - name: Spritesheet_MiniEnemy_Walking_Side_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -32}
+        - {x: 13, y: -32}
+        - {x: 15, y: -31}
+        - {x: 15, y: -1}
+        - {x: 12, y: 11}
+        - {x: 8, y: 15}
+        - {x: -8, y: 15}
+        - {x: -23, y: -3}
+        - {x: -23, y: -15}
+        - {x: -22, y: -17}
+        - {x: -7, y: -32}
+        - {x: 5, y: -32}
+        - {x: 6, y: -31}
+        - {x: 6, y: -27}
+        - {x: 6, y: -29}
+    - name: Spritesheet_MiniEnemy_Walking_Side_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 14}
+        - {x: -16, y: 12}
+        - {x: -24, y: -8}
+        - {x: -24, y: -21}
+        - {x: -11, y: -32}
+        - {x: 11, y: -32}
+        - {x: 13, y: -31}
+        - {x: 13, y: 10}
+        - {x: 9, y: 14}
+    - name: Spritesheet_MiniEnemy_Walking_Side_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -23}
+        - {x: -15, y: -32}
+        - {x: 13, y: -32}
+        - {x: 13, y: 3}
+        - {x: 11, y: 15}
+        - {x: -6, y: 15}
+        - {x: -23, y: -7}
+      - - {x: -7, y: 32}
+        - {x: -6, y: 29}
+        - {x: 2, y: 29}
+        - {x: 4, y: 31}
+        - {x: 4, y: 32}
+    - name: Spritesheet_MiniEnemy_Walking_Side_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 15}
+        - {x: -23, y: 2}
+        - {x: -23, y: -26}
+        - {x: -18, y: -32}
+        - {x: 13, y: -32}
+        - {x: 14, y: -29}
+        - {x: 14, y: 5}
+        - {x: 9, y: 15}
+      - - {x: -7, y: 32}
+        - {x: -6, y: 29}
+        - {x: 2, y: 29}
+        - {x: 4, y: 31}
+        - {x: 4, y: 32}
+    - name: Spritesheet_MiniEnemy_Walking_Side_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 15}
+        - {x: -7, y: 15}
+        - {x: -23, y: -8}
+        - {x: -23, y: -17}
+        - {x: -18, y: -27}
+        - {x: -6, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: 1}
+        - {x: 11, y: 12}
+    - name: Spritesheet_MiniEnemy_Walking_Side_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 15}
+        - {x: -13, y: 15}
+        - {x: -23, y: 0}
+        - {x: -23, y: -18}
+        - {x: -14, y: -26}
+        - {x: -4, y: -32}
+        - {x: 13, y: -32}
+        - {x: 13, y: 3}
+        - {x: 11, y: 12}
+    - name: Spritesheet_MiniEnemy_Walking_Side_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 14}
+        - {x: -11, y: 14}
+        - {x: -25, y: 0}
+        - {x: -25, y: -24}
+        - {x: -18, y: -32}
+        - {x: 11, y: -32}
+        - {x: 12, y: -30}
+        - {x: 12, y: 2}
+        - {x: 9, y: 12}
+    - name: Spritesheet_MiniEnemy_Walking_Side_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 14}
+        - {x: -14, y: 14}
+        - {x: -24, y: 5}
+        - {x: -24, y: -24}
+        - {x: -12, y: -32}
+        - {x: 12, y: -32}
+        - {x: 14, y: -30}
+        - {x: 14, y: -7}
+        - {x: 11, y: 10}
+    - name: Spritesheet_MiniEnemy_Walking_Side_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: -23}
+        - {x: -14, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: 2}
+        - {x: 13, y: 14}
+        - {x: -11, y: 14}
+        - {x: -24, y: -8}
+    - name: Spritesheet_MiniEnemy_Walking_Side_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 14}
+        - {x: -7, y: 14}
+        - {x: -22, y: -8}
+        - {x: -22, y: -20}
+        - {x: -11, y: -32}
+        - {x: 15, y: -32}
+        - {x: 15, y: -6}
+        - {x: 12, y: 11}
+    - name: Spritesheet_MiniEnemy_Walking_Side_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 14}
+        - {x: -7, y: 14}
+        - {x: -11, y: 10}
+        - {x: -23, y: -9}
+        - {x: -23, y: -17}
+        - {x: -15, y: -32}
+        - {x: 15, y: -32}
+        - {x: 15, y: 7}
+        - {x: 13, y: 12}
+    - name: Spritesheet_MiniEnemy_Walking_Side_33
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 15}
+        - {x: -3, y: 15}
+        - {x: -12, y: 13}
+        - {x: -23, y: 3}
+        - {x: -23, y: -23}
+        - {x: -19, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: -6}
+        - {x: 11, y: 11}
+    - name: Spritesheet_MiniEnemy_Walking_Side_34
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 14}
+        - {x: -13, y: 13}
+        - {x: -22, y: -2}
+        - {x: -22, y: -32}
+        - {x: 16, y: -32}
+        - {x: 16, y: 2}
+        - {x: 13, y: 14}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

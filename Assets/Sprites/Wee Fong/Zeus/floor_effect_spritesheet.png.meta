@@ -1,0 +1,241 @@
+fileFormatVersion: 2
+guid: 88893a2fd5f521f4392ae5167f1893c1
+timeCreated: 1468922395
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: floor_effect_spritesheet_0
+    21300002: floor_effect_spritesheet_1
+    21300004: floor_effect_spritesheet_2
+    21300006: floor_effect_spritesheet_3
+    21300008: floor_effect_spritesheet_4
+    21300010: floor_effect_spritesheet_5
+    21300012: floor_effect_spritesheet_6
+    21300014: floor_effect_spritesheet_7
+    21300016: floor_effect_spritesheet_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: floor_effect_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 320
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.200012, y: 7}
+        - {x: -11.200012, y: 3}
+        - {x: -11.200012, y: -6}
+        - {x: -8.200012, y: -7}
+        - {x: 10.799988, y: -7}
+        - {x: 13.799988, y: -3}
+        - {x: 13.799988, y: 3}
+        - {x: 7.799988, y: 7}
+    - name: floor_effect_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 320
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.400024, y: 13}
+        - {x: -25.400024, y: 10}
+        - {x: -25.400024, y: -9}
+        - {x: -22.400024, y: -13}
+        - {x: 23.599976, y: -13}
+        - {x: 26.599976, y: -7}
+        - {x: 26.599976, y: 10}
+        - {x: 21.599976, y: 13}
+    - name: floor_effect_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 320
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.600037, y: 18}
+        - {x: -37.600037, y: 9}
+        - {x: -37.600037, y: -4}
+        - {x: -31.600037, y: -13}
+        - {x: -18.600037, y: -18}
+        - {x: 27.399963, y: -18}
+        - {x: 38.399963, y: -6}
+        - {x: 38.399963, y: 11}
+        - {x: 30.399963, y: 18}
+    - name: floor_effect_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 320
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.30005, y: 23}
+        - {x: -46.30005, y: 15}
+        - {x: -46.30005, y: -21}
+        - {x: -42.30005, y: -22}
+        - {x: 46.69995, y: -22}
+        - {x: 47.69995, y: -20}
+        - {x: 47.69995, y: 14}
+        - {x: 36.69995, y: 23}
+    - name: floor_effect_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 320
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43.5, y: 31}
+        - {x: -35.5, y: 31}
+        - {x: -65.5, y: 22}
+        - {x: -65.5, y: -23}
+        - {x: -46.5, y: -30}
+        - {x: 58.5, y: -30}
+        - {x: 66.5, y: -20}
+        - {x: 66.5, y: 16}
+        - {x: 65.5, y: 18}
+    - name: floor_effect_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 320
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58.200073, y: 36}
+        - {x: -68.20007, y: 35}
+        - {x: -75.20007, y: 13}
+        - {x: -75.20007, y: -15}
+        - {x: -51.200073, y: -35}
+        - {x: 37.799927, y: -35}
+        - {x: 71.79993, y: -28}
+        - {x: 77.79993, y: -19}
+        - {x: 77.79993, y: 20}
+        - {x: 71.79993, y: 36}
+    - name: floor_effect_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 0
+        width: 320
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -78.400024, y: -31}
+        - {x: -71.400024, y: -38}
+        - {x: 73.599976, y: -38}
+        - {x: 83.599976, y: -34}
+        - {x: 83.599976, y: 25}
+        - {x: 67.599976, y: 39}
+        - {x: -48.400024, y: 39}
+        - {x: -82.400024, y: 30}
+        - {x: -82.400024, y: -22}
+    - name: floor_effect_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 320
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 81.3999, y: 47}
+        - {x: -58.600098, y: 47}
+        - {x: -98.6001, y: 35}
+        - {x: -98.6001, y: -44}
+        - {x: -85.6001, y: -47}
+        - {x: 84.3999, y: -47}
+        - {x: 103.3999, y: -28}
+        - {x: 103.3999, y: 22}
+        - {x: 101.3999, y: 30}
+    - name: floor_effect_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 320
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -90.30005, y: 43}
+        - {x: -90.30005, y: -29}
+        - {x: -52.30005, y: -42}
+        - {x: 73.69995, y: -42}
+        - {x: 91.69995, y: -13}
+        - {x: 91.69995, y: 43}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

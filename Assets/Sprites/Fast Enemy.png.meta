@@ -1,0 +1,655 @@
+fileFormatVersion: 2
+guid: c709c055c682823479b9c4f4251016e6
+timeCreated: 1470292770
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Fast Enemy_0
+    21300002: Fast Enemy_1
+    21300004: Fast Enemy_2
+    21300006: Fast Enemy_3
+    21300008: Fast Enemy_4
+    21300010: Fast Enemy_5
+    21300012: Fast Enemy_6
+    21300014: Fast Enemy_7
+    21300016: Fast Enemy_8
+    21300018: Fast Enemy_9
+    21300020: Fast Enemy_10
+    21300022: Fast Enemy_11
+    21300024: Fast Enemy_12
+    21300026: Fast Enemy_13
+    21300028: Fast Enemy_14
+    21300030: Fast Enemy_15
+    21300032: Fast Enemy_16
+    21300034: Fast Enemy_17
+    21300036: Fast Enemy_18
+    21300038: Fast Enemy_19
+    21300040: Fast Enemy_20
+    21300042: Fast Enemy_21
+    21300044: Fast Enemy_22
+    21300046: Fast Enemy_23
+    21300048: Fast Enemy_24
+    21300050: Fast Enemy_25
+    21300052: Fast Enemy_26
+    21300054: Fast Enemy_27
+    21300056: Fast Enemy_28
+    21300058: Fast Enemy_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Fast Enemy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: -21}
+        - {x: 32, y: -21}
+        - {x: 32, y: 21}
+        - {x: -27, y: 21}
+        - {x: -32, y: 20}
+        - {x: -32, y: -19}
+    - name: Fast Enemy_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 22}
+        - {x: -32, y: -20}
+        - {x: 32, y: -20}
+        - {x: 32, y: 22}
+    - name: Fast Enemy_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -19}
+        - {x: -30, y: -21}
+        - {x: 32, y: -21}
+        - {x: 32, y: 21}
+        - {x: -18, y: 21}
+        - {x: -32, y: 17}
+    - name: Fast Enemy_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 22}
+        - {x: -32, y: 20}
+        - {x: -32, y: 3}
+        - {x: -28, y: 1}
+        - {x: -25, y: -2}
+        - {x: -24, y: -1}
+        - {x: -30, y: -6}
+        - {x: -32, y: -7}
+        - {x: -32, y: -18}
+        - {x: -28, y: -22}
+        - {x: 31, y: -22}
+        - {x: 31, y: 22}
+    - name: Fast Enemy_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 25}
+        - {x: -32, y: 22}
+        - {x: -32, y: -21}
+        - {x: 13, y: -21}
+        - {x: 31, y: -16}
+        - {x: 31, y: 25}
+    - name: Fast Enemy_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 23}
+        - {x: -31, y: 18}
+        - {x: -31, y: -23}
+        - {x: -24, y: -25}
+        - {x: 5, y: -25}
+        - {x: 28, y: -23}
+        - {x: 32, y: -15}
+        - {x: 32, y: 23}
+    - name: Fast Enemy_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 24}
+        - {x: -18, y: 22}
+        - {x: -32, y: 11}
+        - {x: -32, y: -1}
+        - {x: -29, y: -18}
+        - {x: -27, y: -23}
+        - {x: 30, y: -23}
+        - {x: 31, y: -18}
+        - {x: 31, y: 13}
+        - {x: 26, y: 24}
+    - name: Fast Enemy_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 25}
+        - {x: -32, y: 19}
+        - {x: -32, y: -21}
+        - {x: 18, y: -21}
+        - {x: 30, y: -15}
+        - {x: 30, y: 15}
+        - {x: 27, y: 25}
+    - name: Fast Enemy_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 26}
+        - {x: -24, y: 25}
+        - {x: -32, y: 14}
+        - {x: -32, y: -13}
+        - {x: -28, y: -21}
+        - {x: 17, y: -21}
+        - {x: 32, y: -14}
+        - {x: 32, y: 15}
+        - {x: 29, y: 26}
+    - name: Fast Enemy_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 28}
+        - {x: -32, y: 18}
+        - {x: -32, y: 0}
+        - {x: -31, y: -2}
+        - {x: -20, y: -2}
+        - {x: -21, y: -18}
+        - {x: -19, y: -21}
+        - {x: 32, y: -21}
+        - {x: 32, y: 28}
+    - name: Fast Enemy_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: -8}
+        - {x: -20, y: -24}
+        - {x: 32, y: -24}
+        - {x: 32, y: 25}
+        - {x: -10, y: 25}
+        - {x: -31, y: 16}
+    - name: Fast Enemy_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 10}
+        - {x: -32, y: 1}
+        - {x: -31, y: -3}
+        - {x: -26, y: -24}
+        - {x: 32, y: -24}
+        - {x: 32, y: 26}
+        - {x: 3, y: 26}
+        - {x: -21, y: 23}
+    - name: Fast Enemy_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 25}
+        - {x: -19, y: 22}
+        - {x: -32, y: 16}
+        - {x: -32, y: -25}
+        - {x: 30, y: -25}
+        - {x: 30, y: 25}
+    - name: Fast Enemy_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 24}
+        - {x: -29, y: 8}
+        - {x: -29, y: -19}
+        - {x: -27, y: -24}
+        - {x: 30, y: -24}
+        - {x: 30, y: 24}
+    - name: Fast Enemy_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 23}
+        - {x: -21, y: 19}
+        - {x: -30, y: 6}
+        - {x: -30, y: 0}
+        - {x: -25, y: -4}
+        - {x: -20, y: -21}
+        - {x: -14, y: -24}
+        - {x: 17, y: -24}
+        - {x: 29, y: -17}
+        - {x: 29, y: 23}
+    - name: Fast Enemy_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 25}
+        - {x: -31, y: 9}
+        - {x: -31, y: -11}
+        - {x: -22, y: -24}
+        - {x: 28, y: -24}
+        - {x: 31, y: 14}
+        - {x: 31, y: 24}
+        - {x: 29, y: 25}
+    - name: Fast Enemy_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 24}
+        - {x: -31, y: 16}
+        - {x: -31, y: -8}
+        - {x: -15, y: -24}
+        - {x: 4, y: -24}
+        - {x: 25, y: -22}
+        - {x: 29, y: -7}
+        - {x: 29, y: 24}
+    - name: Fast Enemy_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 23}
+        - {x: -19, y: 21}
+        - {x: -29, y: 5}
+        - {x: -29, y: -12}
+        - {x: -17, y: -24}
+        - {x: 9, y: -24}
+        - {x: 28, y: -15}
+        - {x: 30, y: -7}
+        - {x: 30, y: 23}
+    - name: Fast Enemy_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 23}
+        - {x: -30, y: 9}
+        - {x: -30, y: -9}
+        - {x: -22, y: -25}
+        - {x: 18, y: -25}
+        - {x: 29, y: -22}
+        - {x: 29, y: 23}
+    - name: Fast Enemy_19
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 24}
+        - {x: -30, y: 7}
+        - {x: -30, y: -12}
+        - {x: -23, y: -25}
+        - {x: 23, y: -25}
+        - {x: 29, y: -1}
+        - {x: 29, y: 24}
+    - name: Fast Enemy_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: 23}
+        - {x: -9, y: 23}
+        - {x: -29, y: 16}
+        - {x: -29, y: -22}
+        - {x: -27, y: -24}
+        - {x: 4, y: -24}
+        - {x: 27, y: -18}
+        - {x: 32, y: 5}
+        - {x: 32, y: 21}
+    - name: Fast Enemy_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 23}
+        - {x: 16, y: 23}
+        - {x: -18, y: 21}
+        - {x: -30, y: 14}
+        - {x: -30, y: -24}
+        - {x: -29, y: -25}
+        - {x: 14, y: -25}
+        - {x: 23, y: -24}
+        - {x: 32, y: 0}
+        - {x: 32, y: 21}
+    - name: Fast Enemy_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 21}
+        - {x: -30, y: 5}
+        - {x: -30, y: 0}
+        - {x: -29, y: -23}
+        - {x: 13, y: -23}
+        - {x: 25, y: -16}
+        - {x: 29, y: 2}
+        - {x: 29, y: 21}
+    - name: Fast Enemy_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 21}
+        - {x: -29, y: 19}
+        - {x: -29, y: -1}
+        - {x: -21, y: -6}
+        - {x: -18, y: -6}
+        - {x: -14, y: -2}
+        - {x: -24, y: -12}
+        - {x: -26, y: -19}
+        - {x: -20, y: -23}
+        - {x: 19, y: -23}
+        - {x: 31, y: -18}
+        - {x: 32, y: -7}
+        - {x: 32, y: 21}
+    - name: Fast Enemy_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 23}
+        - {x: -27, y: 16}
+        - {x: -27, y: -15}
+        - {x: -19, y: -20}
+        - {x: 24, y: -20}
+        - {x: 31, y: -9}
+        - {x: 31, y: 23}
+    - name: Fast Enemy_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 23}
+        - {x: -30, y: 13}
+        - {x: -30, y: -4}
+        - {x: -29, y: -20}
+        - {x: -25, y: -21}
+        - {x: 18, y: -21}
+        - {x: 29, y: -15}
+        - {x: 29, y: 23}
+    - name: Fast Enemy_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 23}
+        - {x: -30, y: 16}
+        - {x: -30, y: -17}
+        - {x: -21, y: -22}
+        - {x: 29, y: -22}
+        - {x: 30, y: -8}
+        - {x: 30, y: 19}
+        - {x: 16, y: 23}
+    - name: Fast Enemy_27
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 23}
+        - {x: -15, y: 23}
+        - {x: -30, y: 16}
+        - {x: -30, y: -13}
+        - {x: -24, y: -19}
+        - {x: -14, y: -18}
+        - {x: 5, y: -22}
+        - {x: 19, y: -22}
+        - {x: 30, y: -16}
+        - {x: 31, y: -14}
+        - {x: 31, y: 11}
+    - name: Fast Enemy_28
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 23}
+        - {x: -16, y: 23}
+        - {x: -32, y: 15}
+        - {x: -32, y: -21}
+        - {x: 28, y: -21}
+        - {x: 31, y: -19}
+        - {x: 31, y: 15}
+        - {x: 27, y: 21}
+    - name: Fast Enemy_29
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 24}
+        - {x: -32, y: -21}
+        - {x: 32, y: -21}
+        - {x: 32, y: 24}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

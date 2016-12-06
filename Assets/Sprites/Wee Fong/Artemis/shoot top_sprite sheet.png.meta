@@ -1,0 +1,267 @@
+fileFormatVersion: 2
+guid: c6c7b3dff846a024091a8f77a0995d2a
+timeCreated: 1467277520
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: shoot top_sprite sheet_0
+    21300002: shoot top_sprite sheet_1
+    21300004: shoot top_sprite sheet_2
+    21300006: shoot top_sprite sheet_3
+    21300008: shoot top_sprite sheet_4
+    21300010: shoot top_sprite sheet_5
+    21300012: shoot top_sprite sheet_6
+    21300014: shoot top_sprite sheet_7
+    21300016: shoot top_sprite sheet_8
+    21300018: shoot top_sprite sheet_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: shoot top_sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 80
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 80}
+        - {x: -23, y: 64}
+        - {x: -29, y: 25}
+        - {x: -29, y: 9}
+        - {x: -19, y: 0}
+        - {x: 25, y: 0}
+        - {x: 25, y: 80}
+    - name: shoot top_sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 80
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 79}
+        - {x: -3, y: 79}
+        - {x: -23, y: 71}
+        - {x: -34, y: 41}
+        - {x: -34, y: 25}
+        - {x: -19, y: 0}
+        - {x: 20, y: 0}
+        - {x: 24, y: 14}
+        - {x: 24, y: 74}
+        - {x: 20, y: 78}
+    - name: shoot top_sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 80
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 78}
+        - {x: 11, y: 79}
+        - {x: -11, y: 79}
+        - {x: -38, y: 53}
+        - {x: -38, y: 28}
+        - {x: -20, y: 0}
+        - {x: 15, y: 0}
+        - {x: 19, y: 1}
+        - {x: 24, y: 35}
+        - {x: 24, y: 69}
+    - name: shoot top_sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 80
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 76}
+        - {x: -18, y: 68}
+        - {x: -36, y: 58}
+        - {x: -36, y: 35}
+        - {x: -19, y: 0}
+        - {x: 20, y: 0}
+        - {x: 28, y: 20}
+        - {x: 28, y: 74}
+        - {x: 17, y: 76}
+    - name: shoot top_sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 80
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 75}
+        - {x: -31, y: 33}
+        - {x: -23, y: 38}
+        - {x: -19, y: 41}
+        - {x: -20, y: 8}
+        - {x: -16, y: 0}
+        - {x: 18, y: 0}
+        - {x: 32, y: 36}
+        - {x: 32, y: 66}
+        - {x: 17, y: 75}
+    - name: shoot top_sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 80
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 65}
+        - {x: 26, y: 77}
+        - {x: -14, y: 77}
+        - {x: -27, y: 74}
+        - {x: -27, y: 0}
+        - {x: 14, y: 0}
+        - {x: 17, y: 3}
+        - {x: 17, y: 7}
+        - {x: 29, y: 41}
+    - name: shoot top_sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 80
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 79}
+        - {x: -26, y: 71}
+        - {x: -26, y: 39}
+        - {x: -23, y: 38}
+        - {x: -19, y: 41}
+        - {x: -24, y: 1}
+        - {x: -22, y: 0}
+        - {x: 21, y: 0}
+        - {x: 26, y: 18}
+        - {x: 26, y: 72}
+        - {x: 21, y: 79}
+    - name: shoot top_sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 80
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 79}
+        - {x: -24, y: 74}
+        - {x: -24, y: 0}
+        - {x: 19, y: 0}
+        - {x: 26, y: 26}
+        - {x: 26, y: 74}
+        - {x: 23, y: 79}
+    - name: shoot top_sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 80
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 71}
+        - {x: -22, y: 0}
+        - {x: 25, y: 0}
+        - {x: 25, y: 79}
+        - {x: -1, y: 79}
+        - {x: -14, y: 76}
+    - name: shoot top_sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 80
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 56}
+        - {x: 25, y: 70}
+        - {x: 19, y: 80}
+        - {x: -11, y: 80}
+        - {x: -22, y: 73}
+        - {x: -22, y: 3}
+        - {x: -18, y: 0}
+        - {x: 14, y: 0}
+        - {x: 17, y: 3}
+        - {x: 17, y: 7}
+        - {x: 16, y: 24}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

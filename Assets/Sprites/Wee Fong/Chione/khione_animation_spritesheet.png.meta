@@ -1,0 +1,280 @@
+fileFormatVersion: 2
+guid: ff0607aa707e29d4a9fc379d76cf30a3
+timeCreated: 1470303913
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: khione_animation_spritesheet_0
+    21300002: khione_animation_spritesheet_1
+    21300004: khione_animation_spritesheet_2
+    21300006: khione_animation_spritesheet_3
+    21300008: khione_animation_spritesheet_4
+    21300010: khione_animation_spritesheet_5
+    21300012: khione_animation_spritesheet_6
+    21300014: khione_animation_spritesheet_7
+    21300016: khione_animation_spritesheet_8
+    21300018: khione_animation_spritesheet_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: khione_animation_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 170
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 49}
+        - {x: -28, y: 41}
+        - {x: -28, y: -16}
+        - {x: 12, y: -16}
+        - {x: 20, y: -15}
+        - {x: 29, y: -1}
+        - {x: 29, y: 18}
+        - {x: 9, y: 49}
+      - - {x: -28, y: 21}
+        - {x: -26, y: 19}
+        - {x: -23, y: 20}
+        - {x: -23, y: 23}
+        - {x: -25, y: 25}
+        - {x: -28, y: 24}
+    - name: khione_animation_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 170
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 59, y: 85}
+        - {x: -63, y: 85}
+        - {x: -84, y: 36}
+        - {x: -84, y: -33}
+        - {x: -82, y: -40}
+        - {x: -42, y: -85}
+        - {x: 48, y: -85}
+        - {x: 81, y: -58}
+        - {x: 85, y: -44}
+        - {x: 85, y: 42}
+    - name: khione_animation_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 170
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: 84}
+        - {x: -84, y: 38}
+        - {x: -84, y: -55}
+        - {x: -82, y: -77}
+        - {x: -50, y: -85}
+        - {x: 72, y: -85}
+        - {x: 85, y: -73}
+        - {x: 85, y: 61}
+        - {x: 23, y: 84}
+    - name: khione_animation_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 170
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: 84}
+        - {x: -44, y: 84}
+        - {x: -81, y: 49}
+        - {x: -85, y: 31}
+        - {x: -85, y: -41}
+        - {x: -49, y: -85}
+        - {x: 49, y: -85}
+        - {x: 85, y: -43}
+        - {x: 85, y: 40}
+        - {x: 82, y: 56}
+    - name: khione_animation_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 0
+        width: 170
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: 83}
+        - {x: -39, y: 83}
+        - {x: -85, y: 51}
+        - {x: -85, y: -49}
+        - {x: -66, y: -75}
+        - {x: -33, y: -85}
+        - {x: 48, y: -85}
+        - {x: 84, y: -61}
+        - {x: 85, y: -56}
+        - {x: 85, y: 50}
+    - name: khione_animation_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 0
+        width: 170
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55, y: 85}
+        - {x: -44, y: 85}
+        - {x: -49, y: 83}
+        - {x: -85, y: 35}
+        - {x: -85, y: -44}
+        - {x: -48, y: -85}
+        - {x: 38, y: -85}
+        - {x: 84, y: -60}
+        - {x: 85, y: -57}
+        - {x: 85, y: 51}
+    - name: khione_animation_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 0
+        width: 170
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: 84}
+        - {x: -84, y: 38}
+        - {x: -84, y: -55}
+        - {x: -82, y: -77}
+        - {x: -50, y: -85}
+        - {x: 72, y: -85}
+        - {x: 85, y: -73}
+        - {x: 85, y: 61}
+        - {x: 23, y: 84}
+    - name: khione_animation_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 0
+        width: 170
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: 83}
+        - {x: 31, y: 84}
+        - {x: -31, y: 84}
+        - {x: -84, y: 53}
+        - {x: -84, y: -50}
+        - {x: -52, y: -85}
+        - {x: 53, y: -85}
+        - {x: 60, y: -83}
+        - {x: 85, y: -40}
+        - {x: 85, y: 27}
+        - {x: 76, y: 54}
+    - name: khione_animation_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 0
+        width: 170
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: 83}
+        - {x: -39, y: 83}
+        - {x: -85, y: 51}
+        - {x: -85, y: -49}
+        - {x: -66, y: -75}
+        - {x: -33, y: -85}
+        - {x: 48, y: -85}
+        - {x: 84, y: -61}
+        - {x: 85, y: -56}
+        - {x: 85, y: 50}
+    - name: khione_animation_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 0
+        width: 170
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55, y: 85}
+        - {x: -44, y: 85}
+        - {x: -49, y: 83}
+        - {x: -85, y: 35}
+        - {x: -85, y: -44}
+        - {x: -48, y: -85}
+        - {x: 38, y: -85}
+        - {x: 84, y: -60}
+        - {x: 85, y: -57}
+        - {x: 85, y: 51}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
