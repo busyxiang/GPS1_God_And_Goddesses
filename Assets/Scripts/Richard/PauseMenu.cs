@@ -29,7 +29,7 @@ public class PauseMenu : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
-		if(Input.GetKeyDown(KeyCode.P))
+		if(Input.GetKeyDown(KeyCode.P) || Input.GetKeyDown(KeyCode.Escape))
         {
             if(isPaused == false)
             {
@@ -54,9 +54,13 @@ public class PauseMenu : MonoBehaviour
 
     public void MenuPress()
     {
+		if(Time.timeScale != 1.0f)
+		{
+			Time.timeScale = 1.0f;
+		}
+
+		AudioListener.volume = 1.0f;
         SceneManager.LoadScene("MainMenu");
-        Time.timeScale = 1.0f;
-        AudioListener.volume = 1.0f;
     }
     
     public void ResumePress()
