@@ -36,18 +36,6 @@ public class TileScript : MonoBehaviour
 		spriteRenderer = GetComponent<SpriteRenderer>();
 	}
 
-	// Use this for initialization
-	void Start ()
-	{
-		
-	}
-	
-	// Update is called once per frame
-	void Update ()
-	{
-		
-	}
-
 	void OnMouseDown()
 	{
 		if(GetComponent<PlaceTower>().isActiveAndEnabled == false)

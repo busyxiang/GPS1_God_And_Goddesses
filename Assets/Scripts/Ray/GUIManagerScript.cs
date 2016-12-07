@@ -545,10 +545,10 @@ public class GUIManagerScript : MonoBehaviour
 		else if(phase == 2)
 		{
 			progressIndicatorImage.sprite = progressSprites[phase];
-			StartCoroutine(TransiteProgressIndicator(1));
+			StartCoroutine(TransiteProgressIndicator(1.5f));
 		}
 
-		StartCoroutine(HideProgressIndicator(2));
+		StartCoroutine(HideProgressIndicator(1.5f));
 	}
 
 	public IEnumerator HideProgressIndicator(float seconds)
