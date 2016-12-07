@@ -131,8 +131,6 @@ public class GUIManagerScript : MonoBehaviour
 				HideCoreInfo();
 				HidePlatformInfo();
 				ShowTowerInfo();
-				upgradeTowerButton.transform.position = new Vector3(selectedGO.transform.position.x - 0.3f, selectedGO.transform.position.y - 0.3f, selectedGO.transform.position.z);
-				sellTowerButton.transform.position = new Vector3(selectedGO.transform.position.x + 0.3f, selectedGO.transform.position.y - 0.3f, selectedGO.transform.position.z);
 
 				float range = selectedGO.GetComponent<TowerData>().range;
 				rangeDetection.SetActive(true);

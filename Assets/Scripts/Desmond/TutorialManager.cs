@@ -43,12 +43,6 @@ public class TutorialManager : MonoBehaviour
 	void Start()
 	{
 		currentCardValue = 0;
-
-		if(SceneManager.GetActiveScene().name != "TutorialScene")
-		{
-			TileManagerScript.Instance.DeactivaBoxCollider2D();	
-		}
-
 		updateTutorialCard();
 	}
 
@@ -89,8 +83,12 @@ public class TutorialManager : MonoBehaviour
 
 	public void Close()
 	{
+		if(Time.timeScale != 1)
+		{
+			Time.timeScale = 1.0f;
+		}
+
 		UI.enabled = true;
-		Time.timeScale = 1.0f;
 		tutorialCanvas.enabled = false;
 
 		if(SceneManager.GetActiveScene().name != "TutorialScene")
