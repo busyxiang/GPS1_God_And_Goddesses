@@ -228,7 +228,8 @@ public class SpawnEnemy1 : MonoBehaviour
 					}
 					currentRemainingEnemy = currentTotalEnemy;
 					currentWave++;
-					GUIManagerScript.Instance.BattleBegin.SetActive(true);
+					GUIManagerScript.Instance.progressIndicatorImage.gameObject.SetActive(true);
+					GUIManagerScript.Instance.UpdateProgressIndicator(1);
 					break;
 
 				}

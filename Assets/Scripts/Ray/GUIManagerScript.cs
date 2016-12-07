@@ -50,12 +50,8 @@ public class GUIManagerScript : MonoBehaviour
 	public GameObject rangeDetection;
 	public Text coreHealthText;
 	TutorialManager tutorialManager;
-	public GameObject BattleBegin ;
-	public GameObject PrepareForBattle;
-
-	//!timer 
-	public float timer=2.0f;
-	public float Delaytimer ;
+	public Image progressIndicatorImage;
+	public Sprite[] progressSprites;
 
 	int totalEnemy;
 	GameObject[] enemy;
@@ -109,20 +105,14 @@ public class GUIManagerScript : MonoBehaviour
 			GUIManagerScript.Instance.UpdateSelectedInfo();
 		}
 
-		if(BattleBegin.activeSelf == true)
-		{
-
-			Delaytimer += Time.deltaTime ; 
-			if(Delaytimer >= timer)
-			{
-				BattleBegin.SetActive(false);
-				Delaytimer = 0 ;
-			}
-		}
-
 		if(rangeDetection.activeSelf == true)
 		{
 			rangeDetection.transform.position = selectedGO.transform.position;
+		}
+
+		if(totalEnemy <= 0)
+		{
+			UpdateProgressIndicator(2);
 		}
 	}
 
@@ -165,18 +155,6 @@ public class GUIManagerScript : MonoBehaviour
 			HideTowerInfo();
 			HidePlatformInfo();
 			rangeDetection.SetActive(false);
-		}
-
-
-
-		if(PrepareForBattle.activeSelf == true)
-		{
-			Delaytimer +=Time.deltaTime;
-			if(Delaytimer >= timer)
-			{
-				PrepareForBattle.SetActive(false);
-				Delaytimer = 0 ;
-			}
 		}
 	}
 
@@ -552,5 +530,34 @@ public class GUIManagerScript : MonoBehaviour
 		TileManagerScript.Instance.UnSelectPlatform03();
 		TileManagerScript.Instance.UnSelectPlatform04();
 		TileManagerScript.Instance.UnSelectPlatform05();
+	}
+
+	public void UpdateProgressIndicator(int phase)
+	{
+		if(phase == 1)
+		{
+			progressIndicatorImage.sprite = progressSprites[phase];
+		}
+		else if(phase == 2)
+		{
+			progressIndicatorImage.sprite = progressSprites[phase];
+			StartCoroutine(TransiteProgressIndicator(1));
+		}
+
+		StartCoroutine(HideProgressIndicator(2));
+	}
+
+	public IEnumerator HideProgressIndicator(float seconds)
+	{
+		yield return new WaitForSeconds(seconds);
+
+		progressIndicatorImage.gameObject.SetActive(false);
+	}
+
+	public IEnumerator TransiteProgressIndicator(float seconds)
+	{
+		yield return new WaitForSeconds(seconds);
+
+		progressIndicatorImage.sprite = progressSprites[0];
 	}
 }
