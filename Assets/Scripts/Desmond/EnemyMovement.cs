@@ -134,7 +134,7 @@ public class EnemyMovement : MonoBehaviour
 
 		if(Level1.GetComponent<SpawnEnemy1>().currentRemainingEnemy <=0 && Level1.GetComponent<SpawnEnemy1>().currentWave != Level1.GetComponent<SpawnEnemy1>().totalWave)
 		{
-			GUIManagerScript.Instance.progressIndicatorImage.gameObject.SetActive(false);
+			GUIManagerScript.Instance.UpdateProgressIndicator(2);
 		}
 	}
 }

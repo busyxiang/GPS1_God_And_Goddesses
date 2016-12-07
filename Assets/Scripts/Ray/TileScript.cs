@@ -39,10 +39,7 @@ public class TileScript : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
-		if(type == Type.NONE)
-		{
-			GetComponent<BoxCollider2D>().enabled = false;
-		}
+		
 	}
 	
 	// Update is called once per frame
@@ -68,6 +65,11 @@ public class TileScript : MonoBehaviour
 					GUIManagerScript.Instance.UpdateSelectedInfo();
 				}
 			}
+		}
+
+		if(type == Type.NONE)
+		{
+			GUIManagerScript.Instance.UnselectEverything();
 		}
 	}
 }

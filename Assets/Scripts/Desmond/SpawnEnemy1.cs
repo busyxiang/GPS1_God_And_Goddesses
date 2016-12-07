@@ -247,5 +247,10 @@ public class SpawnEnemy1 : MonoBehaviour
 		{
 			tutorialManager.startGame.SetActive(false);
 		}
+
+		if(GUIManagerScript.Instance.selectedGO != null)
+		{
+			GUIManagerScript.Instance.UnselectEverything();
+		}
 	}
 }

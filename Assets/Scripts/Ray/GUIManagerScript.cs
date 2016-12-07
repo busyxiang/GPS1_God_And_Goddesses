@@ -38,7 +38,6 @@ public class GUIManagerScript : MonoBehaviour
 	SpawnEnemy1 enemySpawner;
 	public int sellTowerValue;
 	public GameObject textInfo;
-	public GameObject healthInfo;
 	public Text waveCount;
 	public GameObject upgradeTowerButton;
 	public GameObject sellTowerButton;
@@ -82,7 +81,6 @@ public class GUIManagerScript : MonoBehaviour
 		tileManager = GameObject.Find("TileManagerPrefab").GetComponent<TileManagerScript>();
 		coreHealth = GameObject.Find("Core").GetComponent<CoreHealth>();
 
-
 		if(SceneManager.GetActiveScene().name == "TutorialLevel")
 		{
 			tutorialManager = GameObject.Find("TutorialManager").GetComponent<TutorialManager>();
@@ -108,11 +106,6 @@ public class GUIManagerScript : MonoBehaviour
 		if(rangeDetection.activeSelf == true)
 		{
 			rangeDetection.transform.position = selectedGO.transform.position;
-		}
-
-		if(totalEnemy <= 0)
-		{
-			UpdateProgressIndicator(2);
 		}
 	}
 
@@ -160,10 +153,21 @@ public class GUIManagerScript : MonoBehaviour
 
 	public void UnselectEverything()
 	{
+		if(selectedGO != null)
+		{
+			if(selectedGO.CompareTag("Tower"))
+			{
+				selectedGO.GetComponent<ClickAndMove>().Deactivate();				
+			}
+
+			selectedGO = null;
+		}
+
 		HideCoreInfo();
 		HideTowerInfo();
 		HidePlatformInfo();
 		UnselectPlatform();
+		rangeDetection.SetActive(false);
 	}
 
 	public void BuildArtemisTower()

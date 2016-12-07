@@ -68,6 +68,7 @@ public class PauseMenu : MonoBehaviour
         PausePanel.enabled = false;
         Time.timeScale = 1.0f;
 		UI.enabled = true;
+		TileManagerScript.Instance.ActivateBoxCollider2D();
         //AudioListener.volume = 1.0f;
     }
 
