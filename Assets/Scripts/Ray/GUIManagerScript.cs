@@ -119,6 +119,11 @@ public class GUIManagerScript : MonoBehaviour
 				Delaytimer = 0 ;
 			}
 		}
+
+		if(rangeDetection.activeSelf == true)
+		{
+			rangeDetection.transform.position = selectedGO.transform.position;
+		}
 	}
 
 	public void UpdateSelectedInfo()
@@ -134,7 +139,6 @@ public class GUIManagerScript : MonoBehaviour
 
 				float range = selectedGO.GetComponent<TowerData>().range;
 				rangeDetection.SetActive(true);
-				rangeDetection.transform.position = selectedGO.transform.position;
 				rangeDetection.transform.localScale = new Vector3(range, range, 0);
 			}
 			else if(selectedGO.CompareTag("Tile"))
