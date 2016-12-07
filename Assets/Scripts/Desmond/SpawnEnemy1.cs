@@ -6,8 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class SpawnEnemy1 : MonoBehaviour
 {
-
-	public GameObject button ;
 	//waypoints
 	public GameObject[] wayPoints1;
 	public GameObject[] wayPoints2;

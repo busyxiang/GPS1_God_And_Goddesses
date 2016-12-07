@@ -43,7 +43,6 @@ public class TutorialManager : MonoBehaviour
 	void Start()
 	{
 		currentCardValue = 0;
-		Time.timeScale = 0.0f;
 
 		if(SceneManager.GetActiveScene().name != "TutorialScene")
 		{

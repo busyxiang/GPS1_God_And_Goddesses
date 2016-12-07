@@ -23,7 +23,6 @@ public class PauseMenu : MonoBehaviour
         MainMenu = MainMenu.GetComponent<Button>();
         PausePanel.enabled = false;
         isPaused = false;
-		Sound.isOn = false;
     }
 	
 	// Update is called once per frame
@@ -72,19 +71,15 @@ public class PauseMenu : MonoBehaviour
         //AudioListener.volume = 1.0f;
     }
 
-	public void SoundToggle()
+	public void SoundToggle(bool isOn)
 	{
-		if (isMute == false) 
+		if (!isOn) 
 		{
-			isMute = true;
 			AudioListener.volume = 0;
-			Sound.isOn = true;
 		}
-		else if (isMute == true)
+		else
 		{
-			isMute = false;
 			AudioListener.volume = 1;
-			Sound.isOn = false;
 		}
 	}
 }
