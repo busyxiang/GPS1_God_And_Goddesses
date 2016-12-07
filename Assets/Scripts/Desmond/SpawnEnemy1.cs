@@ -232,6 +232,7 @@ public class SpawnEnemy1 : MonoBehaviour
 					currentWave++;
 					GUIManagerScript.Instance.BattleBegin.SetActive(true);
 					break;
+
 				}
 				/*else if(currentWave >= totalWave)
 				{

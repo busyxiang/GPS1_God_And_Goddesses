@@ -54,8 +54,8 @@ public class GUIManagerScript : MonoBehaviour
 	public GameObject PrepareForBattle;
 
 	//!timer 
-	float timer=2f;
-	float Delaytimer ;
+	public float timer=2.0f;
+	public float Delaytimer ;
 
 	int totalEnemy;
 	GameObject[] enemy;
@@ -86,6 +86,7 @@ public class GUIManagerScript : MonoBehaviour
 		tileManager = GameObject.Find("TileManagerPrefab").GetComponent<TileManagerScript>();
 		coreHealth = GameObject.Find("Core").GetComponent<CoreHealth>();
 
+
 		if(SceneManager.GetActiveScene().name == "TutorialLevel")
 		{
 			tutorialManager = GameObject.Find("TutorialManager").GetComponent<TutorialManager>();
@@ -106,6 +107,17 @@ public class GUIManagerScript : MonoBehaviour
 			GUIManagerScript.Instance.selectedGO = null;
 			GUIManagerScript.Instance.UnselectPlatform();
 			GUIManagerScript.Instance.UpdateSelectedInfo();
+		}
+
+		if(BattleBegin.activeSelf == true)
+		{
+
+			Delaytimer += Time.deltaTime ; 
+			if(Delaytimer >= timer)
+			{
+				BattleBegin.SetActive(false);
+				Delaytimer = 0 ;
+			}
 		}
 	}
 
@@ -153,15 +165,7 @@ public class GUIManagerScript : MonoBehaviour
 			rangeDetection.SetActive(false);
 		}
 
-		if(BattleBegin.activeSelf == true)
-		{
-			Delaytimer += Time.deltaTime ; 
-			if(Delaytimer >=timer)
-			{
-				BattleBegin.SetActive(false);
-				Delaytimer = 0 ;
-			}
-		}
+
 
 		if(PrepareForBattle.activeSelf == true)
 		{
