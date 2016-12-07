@@ -31,39 +31,26 @@ public class TutorialManager : MonoBehaviour
 		}
 	}
 
-	public GameObject[] tutorialCard;
-	public List<GameObject> cards;
+	public Sprite[] tutorialCard;
+	public Image tutorialImage;
 	int currentCardValue;
-	int nextCardValue;
 	public Canvas UI;
 	public Canvas tutorialCanvas;
 	public GameObject startGame;
 	public GameObject summonThis;
 	public GameObject placeHere;
 
-	void Awake()
-	{
-		currentCardValue = 0;
-
-		for(int i=0; i<tutorialCard.Length; i++)
-		{
-			GameObject card = GameObject.Instantiate(tutorialCard[i],Vector3.zero,Quaternion.identity) as GameObject;
-
-			cards.Add(card);
-
-			card.SetActive(false);
-
-			GameObject.DontDestroyOnLoad(card);
-		}
-
-		cards[currentCardValue].SetActive(true);
-	}
-
 	void Start()
 	{
-		UI.enabled = false;
+		currentCardValue = 0;
 		Time.timeScale = 0.0f;
-		TileManagerScript.Instance.DeactivaBoxCollider2D();
+
+		if(SceneManager.GetActiveScene().name != "TutorialScene")
+		{
+			TileManagerScript.Instance.DeactivaBoxCollider2D();	
+		}
+
+		updateTutorialCard();
 	}
 
 	void Update()
@@ -71,25 +58,33 @@ public class TutorialManager : MonoBehaviour
 
 	}
 
+	void updateTutorialCard()
+	{
+		tutorialImage.sprite = tutorialCard[currentCardValue];
+	}
+
 	public void Next()
 	{
-		if(currentCardValue <tutorialCard.Length - 1)
+		if(currentCardValue + 1 < tutorialCard.Length)
 		{
-			nextCardValue = currentCardValue + 1;
-			cards[currentCardValue].SetActive(false);
-			cards[nextCardValue].SetActive(true);
-			currentCardValue = nextCardValue;
+			currentCardValue ++;
+			updateTutorialCard();
+		}
+		else
+		{
+			if(SceneManager.GetActiveScene().name == "TutorialScene")
+			{
+				SceneManager.LoadScene ("TutorialLevel");
+			}
 		}
 	}
 
 	public void Previous()
 	{
-		if(currentCardValue >= 1)
+		if(currentCardValue - 1 >= 0)
 		{
-			nextCardValue = currentCardValue - 1;
-			cards[currentCardValue].SetActive(false);
-			cards[nextCardValue].SetActive(true);
-			currentCardValue = nextCardValue;
+			currentCardValue --;
+			updateTutorialCard();
 		}
 	}
 
@@ -97,19 +92,30 @@ public class TutorialManager : MonoBehaviour
 	{
 		UI.enabled = true;
 		Time.timeScale = 1.0f;
-		TileManagerScript.Instance.ActivateBoxCollider2D();
 		tutorialCanvas.enabled = false;
-		cards[currentCardValue].SetActive(false);
-		cards[nextCardValue].SetActive(false);
+
+		if(SceneManager.GetActiveScene().name != "TutorialScene")
+		{
+			TileManagerScript.Instance.ActivateBoxCollider2D();			
+		}
 	}
 
 	public void Open()
 	{
 		tutorialCanvas.enabled = true;
-		currentCardValue = 0;
-		cards[currentCardValue].SetActive(true);
 		UI.enabled = false;
-		Time.timeScale = 0.0f;
-		TileManagerScript.Instance.DeactivaBoxCollider2D();
+
+		currentCardValue = 0;
+		updateTutorialCard();
+
+		if(SceneManager.GetActiveScene().name != "TutorialScene")
+		{
+			TileManagerScript.Instance.DeactivaBoxCollider2D();
+		}
+
+		if(Time.timeScale != 0)
+		{
+			Time.timeScale = 0.0f;
+		}
 	}
 }
