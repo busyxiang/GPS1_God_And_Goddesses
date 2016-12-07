@@ -361,14 +361,12 @@ public class GUIManagerScript : MonoBehaviour
 		case "ArtemisTower(Clone)":
 			textInfo.GetComponent<Text>().text = selectedGO.gameObject.GetComponent<TowerData>().CurrentLevel.visualization.gameObject.name
 				+ "\nDamage: " + selectedGO.GetComponent<TowerData>().damageDeal + "\nAttack Speed: " + selectedGO.GetComponent<TowerData>().attackSpeed*100
-				+ "\nSPD Reduce: " + selectedGO.GetComponent<TowerData>().slowSpeed + "\nBurn: " + selectedGO.GetComponent<TowerData>().burnDamage
 				+ "\nUpgrade Cost: " + nextLevel.cost;
 			break;
 
 		case "ZuesTower(Clone)":
 			textInfo.GetComponent<Text>().text = selectedGO.gameObject.GetComponent<TowerData>().CurrentLevel.visualization.gameObject.name
 				+ "\nDamage: " + selectedGO.GetComponent<TowerData>().damageDeal + "\nAttack Speed: " + selectedGO.GetComponent<TowerData>().attackSpeed*100
-				+ "\nSPD Reduce: " + selectedGO.GetComponent<TowerData>().slowSpeed + "\nBurn: " + selectedGO.GetComponent<TowerData>().burnDamage
 				+ "\nUpgrade Cost: " + nextLevel.cost;
 			break;
 
@@ -382,7 +380,7 @@ public class GUIManagerScript : MonoBehaviour
 		case "HeliosTower(Clone)":
 			textInfo.GetComponent<Text>().text = selectedGO.gameObject.GetComponent<TowerData>().CurrentLevel.visualization.gameObject.name
 				+ "\nDamage: " + selectedGO.GetComponent<TowerData>().damageDeal + "\nAttack Speed: " + selectedGO.GetComponent<TowerData>().attackSpeed*100
-				+ "\nSPD Reduce: " + selectedGO.GetComponent<TowerData>().slowSpeed + "\nBurn: " + selectedGO.GetComponent<TowerData>().burnDamage + "/Second"
+				+ "\nBurn: " + selectedGO.GetComponent<TowerData>().burnDamage + "/Second"
 				+ "\nUpgrade Cost: " + nextLevel.cost;
 			break;
 
