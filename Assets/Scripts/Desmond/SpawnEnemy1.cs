@@ -48,11 +48,7 @@ public class SpawnEnemy1 : MonoBehaviour
 	{
 		totalWave = waves.Count;
 		CreateEnemyPool();
-
-		if(SceneManager.GetActiveScene().name == "TutorialLevel")
-		{
-			tutorialManager = GameObject.Find("TutorialManager").GetComponent<TutorialManager>();
-		}
+		tutorialManager = GameObject.Find("TutorialManager").GetComponent<TutorialManager>();
 	}
 
 	void Update()
@@ -61,6 +57,8 @@ public class SpawnEnemy1 : MonoBehaviour
 
 		if((currentWave >= totalWave) && currentRemainingEnemy == 0 )
 		{
+			SoundManagerScript.Instance.StopBGM();
+			SoundManagerScript.Instance.PlayBGM(AudioClipID.BGM_WinMusic);
 			Choose.SetActive(true);
 			Time.timeScale = 0.0f;
 		}
@@ -264,7 +262,7 @@ public class SpawnEnemy1 : MonoBehaviour
 			}
 		}
 
-		if(tutorialManager != null && tutorialManager.minionSpawned == false)
+		if(tutorialManager != null && tutorialManager.minionSpawned == false && SceneManager.GetActiveScene().name == "TutorialLevel")
 		{
 			tutorialManager.startGame.SetActive(false);
 			tutorialManager.OpenUpHint(3);

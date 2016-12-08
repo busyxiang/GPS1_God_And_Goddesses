@@ -57,6 +57,11 @@ public class GUIManagerScript : MonoBehaviour
 
 	public int PlatformCost;
 
+	public GameObject artemisPopUp;
+	public GameObject zeusPopUp;
+	public GameObject heliosPopUp;
+	public GameObject plutosPopUp;
+
 	private bool canUpgradeTower()
 	{
 		if (selectedGO != null) 
@@ -575,5 +580,45 @@ public class GUIManagerScript : MonoBehaviour
 		yield return new WaitForSeconds(seconds);
 
 		progressIndicatorImage.sprite = progressSprites[0];
+	}
+
+	public void PopUpArtemis()
+	{
+		artemisPopUp.SetActive(true);
+	}
+
+	public void ClosePopUpArtemis()
+	{
+		artemisPopUp.SetActive(false);
+	}
+
+	public void PopUpZesus()
+	{
+		zeusPopUp.SetActive(true);
+	}
+
+	public void ClosePopUpZeus()
+	{
+		zeusPopUp.SetActive(false);
+	}
+
+	public void PopUpHelios()
+	{
+		heliosPopUp.SetActive(true);
+	}
+
+	public void ClosePopUpHelios()
+	{
+		heliosPopUp.SetActive(false);
+	}
+
+	public void PopUpPlutos()
+	{
+		plutosPopUp.SetActive(true);
+	}
+
+	public void ClosePopUpPlutos()
+	{
+		plutosPopUp.SetActive(false);
 	}
 }

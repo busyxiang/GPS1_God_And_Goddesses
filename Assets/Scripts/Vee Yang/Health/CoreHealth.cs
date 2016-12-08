@@ -26,6 +26,8 @@ public class CoreHealth : MonoBehaviour
 
 		if (healthMin <= 0)
 		{
+			SoundManagerScript.Instance.StopBGM();
+			SoundManagerScript.Instance.PlayBGM(AudioClipID.BGM_LoseMusic);
 			lose.SetActive(true);
 			Time.timeScale = 0.0f;
 		}

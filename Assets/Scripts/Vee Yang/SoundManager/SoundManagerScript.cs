@@ -6,12 +6,14 @@ public enum AudioClipID
 {
 	BGM_MAIN_MENU = 0,
 	BGM_BATTLE = 1,
+	BGM_WinMusic = 2,
+	BGM_LoseMusic = 3,
 
 	
 	SFX_TowerArtemis = 100,
 	SFX_TowerChione= 101,
 	SFX_TowerZeus = 102,
-	SFX_TowerHelios = 103, 
+	SFX_TowerHelios = 103,
 
 
 	TOTAL 
