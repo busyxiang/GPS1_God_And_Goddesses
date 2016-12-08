@@ -20,16 +20,5 @@ public class EnemyHealthManager : MonoBehaviour
 		tmpScale.x = GetComponentInParent<EnemyHealth>().currentHealth/GetComponentInParent<EnemyHealth>().maxHealth * originalScale;
 		gameObject.transform.localScale = tmpScale;
 	}
-
-	
 }
-	/*void OnTriggerEnter2D(Collider2D co){
-		if(GameObject.FindGameObjectWithTag("Bullet")  ) {
-			
-			Destroy (GameObject.FindGameObjectWithTag("Bullet"));
-			Debug.Log ("Shoot!!!!");
-			enemycurrentHealth-=50;
-		}
-}
-}*/
 

@@ -135,9 +135,11 @@ public class PlaceTower : MonoBehaviour
 					}
 				}
 
-				if(tutorialManager != null)
+				if(tutorialManager != null && tutorialManager.placedTower == false)
 				{
 					tutorialManager.placeHere.SetActive(false);
+					tutorialManager.placedTower = true;
+					tutorialManager.OpenUpHint(1);
 				}
 
 				TileManagerScript.Instance.DeactiavtePlaceTower();

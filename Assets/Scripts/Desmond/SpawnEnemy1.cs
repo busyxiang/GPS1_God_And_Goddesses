@@ -42,6 +42,8 @@ public class SpawnEnemy1 : MonoBehaviour
 	public GameObject Choose;
 	TutorialManager tutorialManager;
 
+	public bool spawning = false;
+
 	void Start ()
 	{
 		totalWave = waves.Count;
@@ -61,6 +63,25 @@ public class SpawnEnemy1 : MonoBehaviour
 		{
 			Choose.SetActive(true);
 			Time.timeScale = 0.0f;
+		}
+
+		if(spawning)
+		{
+			if(currentRemainingEnemy <= 0)
+			{
+				if(SceneManager.GetActiveScene().name == "TutorialLevel" && tutorialManager.showedUpgrade == false)
+				{
+					tutorialManager.OpenUpHint(4);
+					tutorialManager.showedUpgrade = true;
+				}
+				else
+				{
+					GUIManagerScript.Instance.progressIndicatorImage.gameObject.SetActive(true);
+					GUIManagerScript.Instance.UpdateProgressIndicator(2);				
+				}
+
+				spawning = false;
+			}
 		}
 	}
 
@@ -243,14 +264,18 @@ public class SpawnEnemy1 : MonoBehaviour
 			}
 		}
 
-		if(tutorialManager != null)
+		if(tutorialManager != null && tutorialManager.minionSpawned == false)
 		{
 			tutorialManager.startGame.SetActive(false);
+			tutorialManager.OpenUpHint(3);
+			tutorialManager.minionSpawned = true;
 		}
 
 		if(GUIManagerScript.Instance.selectedGO != null)
 		{
 			GUIManagerScript.Instance.UnselectEverything();
 		}
+
+		spawning = true;
 	}
 }

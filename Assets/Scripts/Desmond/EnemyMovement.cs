@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class EnemyMovement : MonoBehaviour 
@@ -132,9 +133,16 @@ public class EnemyMovement : MonoBehaviour
 		this.gameObject.GetComponent<SpriteRenderer>().color = Color.white;
 		Level1.GetComponent<SpawnEnemy1>().currentRemainingEnemy--;
 
-		if(Level1.GetComponent<SpawnEnemy1>().currentRemainingEnemy <=0 && Level1.GetComponent<SpawnEnemy1>().currentWave != Level1.GetComponent<SpawnEnemy1>().totalWave)
+		/*if(Level1.GetComponent<SpawnEnemy1>().currentRemainingEnemy <=0 && Level1.GetComponent<SpawnEnemy1>().currentWave != Level1.GetComponent<SpawnEnemy1>().totalWave)
 		{
-			GUIManagerScript.Instance.UpdateProgressIndicator(2);
-		}
+			if(SceneManager.GetActiveScene().name == "TutorialScene")
+			{
+				TutorialManager.Instance.OpenUpHint(4);
+			}
+			else
+			{
+				GUIManagerScript.Instance.UpdateProgressIndicator(2);				
+			}
+		}*/
 	}
 }

@@ -549,14 +549,18 @@ public class GUIManagerScript : MonoBehaviour
 		if(phase == 1)
 		{
 			progressIndicatorImage.sprite = progressSprites[phase];
+			StartCoroutine(HideProgressIndicator(1.5f));
 		}
 		else if(phase == 2)
 		{
 			progressIndicatorImage.sprite = progressSprites[phase];
 			StartCoroutine(TransiteProgressIndicator(1.5f));
+			StartCoroutine(HideProgressIndicator(3.0f));
 		}
-
-		StartCoroutine(HideProgressIndicator(1.5f));
+		else
+		{
+			StartCoroutine(HideProgressIndicator(1.5f));
+		}
 	}
 
 	public IEnumerator HideProgressIndicator(float seconds)
