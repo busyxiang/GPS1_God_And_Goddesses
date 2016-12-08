@@ -6,7 +6,6 @@ public class GoldCoinScript : MonoBehaviour
 	GameManagerBehaviour gameManagerCoin;
 	[HideInInspector]public int CoinValue;
 	public float stayDuration;
-	public AudioClip pickCoinSound;
 	[HideInInspector]public LayerMask layerMask;
 
 	// Use this for initialization
@@ -25,7 +24,6 @@ public class GoldCoinScript : MonoBehaviour
 	void PickUp()
 	{
 		gameManagerCoin.Gold += CoinValue;
-		AudioSource.PlayClipAtPoint(pickCoinSound, transform.position, 1.0f);
 		Destroy(this.gameObject);
 	}
 }

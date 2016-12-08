@@ -117,6 +117,12 @@ public class EnemyMovement : MonoBehaviour
 			if(attackDelayTimer>=attackDelayDuration)
 			{
 				other.gameObject.GetComponent<CoreHealth>().healthMin -= 1;
+
+				if(SoundManagerScript.Instance.sfxAudioSource.isPlaying == false)
+				{
+					SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_CoreAttacked);					
+				}
+
 				attackDelayTimer = 0;
 			}
 		}

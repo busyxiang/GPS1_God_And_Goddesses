@@ -14,6 +14,11 @@ public enum AudioClipID
 	SFX_TowerChione= 101,
 	SFX_TowerZeus = 102,
 	SFX_TowerHelios = 103,
+	SFX_UpgradeTower = 104,
+	SFX_SellTower = 105,
+	SFX_CoreDestroyed = 106,
+	SFX_CoreAttacked = 107,
+	SFX_PrepareforbattleStartBattle= 108,
 
 
 	TOTAL 
@@ -74,18 +79,7 @@ public class SoundManagerScript : MonoBehaviour
 	// Use this for initialization
 	void Start () 
 	{
-		AudioSource[] audioSourceList = this.GetComponentsInChildren<AudioSource>();
 		
-		if(audioSourceList[0].gameObject.name == "BGMAudioSource")
-		{
-			bgmAudioSource = audioSourceList[0];
-			sfxAudioSource = audioSourceList[1];
-		}
-		else 
-		{
-			bgmAudioSource = audioSourceList[0];
-			sfxAudioSource = audioSourceList[0];
-		}
 	}
 	
 	// Update is called once per frame

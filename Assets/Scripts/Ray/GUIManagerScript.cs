@@ -301,6 +301,8 @@ public class GUIManagerScript : MonoBehaviour
 			selectedGO.GetComponent<ClickAndMove>().spriteRenderer = selectedGO.GetComponentInChildren<SpriteRenderer>();
 
 			TowerInfoList();
+
+			SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_UpgradeTower);
 		}
 	}
 
@@ -313,6 +315,8 @@ public class GUIManagerScript : MonoBehaviour
 			gameManager.Gold += sellTowerValue;
 			rangeDetection.SetActive(false);
 			HideTowerInfo();
+
+			SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_SellTower);
 		}
 	}
 
@@ -553,6 +557,7 @@ public class GUIManagerScript : MonoBehaviour
 	{
 		if(phase == 1)
 		{
+			SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_PrepareforbattleStartBattle);
 			progressIndicatorImage.sprite = progressSprites[phase];
 			StartCoroutine(HideProgressIndicator(1.5f));
 		}
@@ -580,6 +585,7 @@ public class GUIManagerScript : MonoBehaviour
 		yield return new WaitForSeconds(seconds);
 
 		progressIndicatorImage.sprite = progressSprites[0];
+		SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_PrepareforbattleStartBattle);
 	}
 
 	public void PopUpArtemis()
