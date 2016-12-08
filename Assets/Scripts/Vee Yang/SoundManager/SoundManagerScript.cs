@@ -10,6 +10,7 @@ public enum AudioClipID
 	BGM_LoseMusic = 3,
 
 	
+	SFX_Click = 99,
 	SFX_TowerArtemis = 100,
 	SFX_TowerChione= 101,
 	SFX_TowerZeus = 102,

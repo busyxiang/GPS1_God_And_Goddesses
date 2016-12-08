@@ -10,10 +10,15 @@ public class PlutosTowerDropCoin : MonoBehaviour
 	int activeEnemy;
 	public int goldValue;
 
+	void Awake()
+	{
+		GetComponentInParent<TowerData>().coinRate = goldValue;		
+	}
+
 	// Use this for initialization
 	void Start () 
 	{
-		GetComponentInParent<TowerData>().coinRate = goldValue;
+		
 	}
 
 	// Update is called once per frame

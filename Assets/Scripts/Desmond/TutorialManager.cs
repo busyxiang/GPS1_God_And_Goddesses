@@ -148,6 +148,8 @@ public class TutorialManager : MonoBehaviour
 			Time.timeScale = 1.0f;
 		}
 
+		SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
+
 		if(currentCardValue == 0)
 		{
 			GUIManagerScript.Instance.progressIndicatorImage.gameObject.SetActive(true);

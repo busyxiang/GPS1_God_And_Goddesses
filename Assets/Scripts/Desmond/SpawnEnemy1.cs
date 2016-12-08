@@ -60,7 +60,7 @@ public class SpawnEnemy1 : MonoBehaviour
 			SoundManagerScript.Instance.StopBGM();
 			SoundManagerScript.Instance.PlayBGM(AudioClipID.BGM_WinMusic);
 			Choose.SetActive(true);
-			Time.timeScale = 0.0f;
+			tutorialManager.UIRaycast.enabled = false;
 		}
 
 		if(spawning)
@@ -239,6 +239,8 @@ public class SpawnEnemy1 : MonoBehaviour
 
 	public void SpawnWave ()
 	{
+		SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
+
 		for(int i=0; i<totalWave;i++)
 		{
 			activeEnemy = GameObject.FindGameObjectsWithTag("Enemy").Length;

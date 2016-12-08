@@ -8,11 +8,13 @@ public class RestartButtonScripts : MonoBehaviour
 
 	public void NextLevel()
 	{
+		SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
 		//SceneManager.LoadScene("Level_2");
 	}
 	public void MainMenu()
 	{
+		SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
 		SceneManager.LoadScene("MainMenu");
 	}
 
@@ -23,6 +25,7 @@ public class RestartButtonScripts : MonoBehaviour
 			Time.timeScale = 1.0f;
 		}
 
+		SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
 		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 	}
 }

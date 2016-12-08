@@ -19,21 +19,25 @@ public class LevelSelection : MonoBehaviour
 
 	public void TutorialPress()
 	{
+		SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
 		SceneManager.LoadScene ("TutorialLevel");
 	}
 
     public void Level1Press()
-    {
+	{
+		SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
 		SceneManager.LoadScene("Level_1");
     }
 
 	public void Level2Press()
 	{
+		SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
 		SceneManager.LoadScene ("Level_2");
 	}
 
 	public void MenuPress()
 	{
+		SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
 		SceneManager.LoadScene ("MainMenu");
 	}
 }

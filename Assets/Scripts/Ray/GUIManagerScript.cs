@@ -92,6 +92,7 @@ public class GUIManagerScript : MonoBehaviour
 		}
 
 		StartCoroutine(HideProgressIndicator(1.5f));
+		SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_PrepareforbattleStartBattle);
 	}
 
 	// Update is called once per frame
@@ -195,6 +196,7 @@ public class GUIManagerScript : MonoBehaviour
 			tutorialManager.summonThis.SetActive(false);
 		}
 
+		SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
 		selectedGO = null;
 		UpdateSelectedInfo();
 		UnselectEverything();
@@ -218,6 +220,7 @@ public class GUIManagerScript : MonoBehaviour
 			tutorialManager.summonThis.SetActive(false);
 		}
 
+		SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
 		selectedGO = null;
 		UpdateSelectedInfo();
 		UnselectEverything();
@@ -241,6 +244,7 @@ public class GUIManagerScript : MonoBehaviour
 			tutorialManager.summonThis.SetActive(false);
 		}
 
+		SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
 		selectedGO = null;
 		UpdateSelectedInfo();
 		UnselectEverything();
@@ -264,6 +268,7 @@ public class GUIManagerScript : MonoBehaviour
 			tutorialManager.summonThis.SetActive(false);
 		}
 
+		SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
 		selectedGO = null;
 		UpdateSelectedInfo();
 		UnselectEverything();
@@ -287,6 +292,7 @@ public class GUIManagerScript : MonoBehaviour
 			tutorialManager.summonThis.SetActive(false);
 		}
 
+		SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
 		selectedGO = null;
 		UpdateSelectedInfo();
 		UnselectEverything();
@@ -304,6 +310,7 @@ public class GUIManagerScript : MonoBehaviour
 			TowerInfoList();
 
 			SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_UpgradeTower);
+			SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
 		}
 	}
 
@@ -313,10 +320,16 @@ public class GUIManagerScript : MonoBehaviour
 		{
 			selectedGO.GetComponent<ClickAndMove>().currentTile.GetComponent<PlaceTower>().tower = null;
 			Destroy(selectedGO);
-			gameManager.Gold += sellTowerValue;
+
+			if(selectedGO.name != "PlutusTower(Clone)")
+			{
+				gameManager.Gold += sellTowerValue;
+			}
+
 			rangeDetection.SetActive(false);
 			HideTowerInfo();
 
+			SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
 			SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_SellTower);
 		}
 	}
@@ -326,6 +339,10 @@ public class GUIManagerScript : MonoBehaviour
 		if(selectedGO.name != "PlutusTower(Clone)")
 		{
 			upgradeTowerButton.SetActive(true);
+			sellTowerButton.SetActive(true);			
+		}
+		else
+		{
 			sellTowerButton.SetActive(true);			
 		}
 
@@ -351,6 +368,7 @@ public class GUIManagerScript : MonoBehaviour
 			enemy[i].GetComponent<EnemyMovement>().Invoke("Destroy",0f);
 		}
 
+		SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 	}
 
@@ -438,6 +456,7 @@ public class GUIManagerScript : MonoBehaviour
 			}
 		}
 
+		SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
 		ShowPlatformInfo();
 
 		if(tutorialManager.upgradePlatform == false && SceneManager.GetActiveScene().name == "TutorialLevel")
@@ -492,6 +511,8 @@ public class GUIManagerScript : MonoBehaviour
 
 	public void HighLightPlatform()
 	{
+		SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
+
 		if(selectedGO.GetComponent<TileScript>().platform == TileScript.Platform.PLATOFORM01)
 		{
 			TileManagerScript.Instance.SelectPlatform01();

@@ -41,6 +41,7 @@ public class MainMenu : MonoBehaviour
 		Settings.interactable = false;
 		Credits.interactable = false;
         QuitGame.interactable = false;
+		SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
     }
 
     public void NoPress()
@@ -51,30 +52,36 @@ public class MainMenu : MonoBehaviour
 		Settings.interactable = true;
 		Credits.interactable = true;
 		QuitGame.interactable = true;
+		SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
     }
 
     public void LevelPress()
-    {
+	{
+		SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
 		SceneManager.LoadScene("LevelSelection");
     }
 
 	public void StartGame()
 	{
+		SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
 		SceneManager.LoadScene("TutorialLevel");
 	}
 
 	public void SettingsPress()
 	{
+		SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
 		SceneManager.LoadScene("Settings");
 	}
 
 	public void CreditPress()
 	{
+		SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
 		SceneManager.LoadScene ("Credits");
 	}
 
     public void ExitGame()
-    {
+	{
+		SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
         Application.Quit();
     }
 }

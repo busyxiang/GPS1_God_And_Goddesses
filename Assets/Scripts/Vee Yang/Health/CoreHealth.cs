@@ -30,7 +30,8 @@ public class CoreHealth : MonoBehaviour
 			SoundManagerScript.Instance.PlayBGM(AudioClipID.BGM_LoseMusic);
 			SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_CoreDestroyed);
 			lose.SetActive(true);
-			Time.timeScale = 0.0f;
+
+			TutorialManager.Instance.UIRaycast.enabled = false;
 		}
 	}
 
@@ -61,6 +62,7 @@ public class CoreHealth : MonoBehaviour
 
 	public void Onclick2()
 	{
+		SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
 		SceneManager.LoadScene("MainMenu");
 	}
 }

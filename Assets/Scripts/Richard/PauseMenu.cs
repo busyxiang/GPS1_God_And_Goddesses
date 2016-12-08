@@ -29,7 +29,9 @@ public class PauseMenu : MonoBehaviour
 	void Update () 
 	{
 		if(Input.GetKeyDown(KeyCode.P) || Input.GetKeyDown(KeyCode.Escape))
-        {
+		{
+			SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
+
             if(isPaused == false)
             {
 				isPaused = true;
@@ -58,6 +60,7 @@ public class PauseMenu : MonoBehaviour
 			Time.timeScale = 1.0f;
 		}
 
+		SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
 		AudioListener.volume = 1.0f;
         SceneManager.LoadScene("MainMenu");
     }
@@ -66,7 +69,8 @@ public class PauseMenu : MonoBehaviour
     {
 		isPaused = false;
         PausePanel.enabled = false;
-        Time.timeScale = 1.0f;
+		Time.timeScale = 1.0f;
+		SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
 		UI.enabled = true;
 		TileManagerScript.Instance.ActivateBoxCollider2D();
         //AudioListener.volume = 1.0f;
@@ -74,6 +78,8 @@ public class PauseMenu : MonoBehaviour
 
 	public void SoundToggle(bool isOn)
 	{
+		SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
+
 		if (!isOn) 
 		{
 			AudioListener.volume = 0;

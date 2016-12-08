@@ -29,6 +29,8 @@ public class Settings : MonoBehaviour
 
 	public void SoundPress()
 	{
+		SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
+
 		if(!isMute)
 		{
 			isMute = true;
@@ -47,6 +49,7 @@ public class Settings : MonoBehaviour
 
 	public void MenuPress()
 	{
+		SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
 		SceneManager.LoadScene("MainMenu");
 	}
 }

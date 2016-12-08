@@ -8,7 +8,8 @@ public class Credits : MonoBehaviour
 	public Button MainMenu;
 
 	// Use this for initialization
-	void Start () {
+	void Start () 
+	{
 		MainMenu = MainMenu.GetComponent<Button> ();
 	}
 	
@@ -19,6 +20,7 @@ public class Credits : MonoBehaviour
 
 	public void MenuPress()
 	{
+		SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
 		SceneManager.LoadScene ("MainMenu");
 	}
 }

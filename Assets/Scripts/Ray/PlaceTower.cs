@@ -142,6 +142,7 @@ public class PlaceTower : MonoBehaviour
 					tutorialManager.OpenUpHint(1);
 				}
 
+				SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
 				TileManagerScript.Instance.DeactiavtePlaceTower();
 			}
 		}

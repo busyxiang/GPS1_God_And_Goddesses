@@ -132,6 +132,8 @@ public class ClickAndMove : MonoBehaviour
 			{
 				if(Input.GetMouseButtonDown(1))
 				{
+					SoundManagerScript.Instance.PlaySFX(AudioClipID.SFX_Click);
+
 					if(hit.transform.gameObject.CompareTag("Tile"))
 					{
 						if(hit.transform.gameObject.GetComponent<TileScript>().type == TileScript.Type.PLATFORM)
