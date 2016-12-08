@@ -71,11 +71,6 @@ public class SpawnEnemy1 : MonoBehaviour
 				{
 					tutorialManager.OpenUpHint(4);
 					tutorialManager.showedUpgrade = true;
-
-					if(currentWave >= totalWave)
-					{
-						tutorialManager.OpenUpHint(7);
-					}
 				}
 				else
 				{
@@ -84,6 +79,14 @@ public class SpawnEnemy1 : MonoBehaviour
 				}
 
 				spawning = false;
+			}
+		}
+		else
+		{
+			if(currentRemainingEnemy <= 0 && currentWave == totalWave - 1 && SceneManager.GetActiveScene().name == "TutorialLevel" && tutorialManager.showedPlatformUpgrade == false)
+			{
+				tutorialManager.OpenUpHint(7);
+				tutorialManager.showedPlatformUpgrade = true;
 			}
 		}
 	}

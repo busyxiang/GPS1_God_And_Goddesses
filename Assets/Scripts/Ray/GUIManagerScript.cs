@@ -299,6 +299,7 @@ public class GUIManagerScript : MonoBehaviour
 			selectedGO.GetComponent<TowerData> ().IncreaseLevel ();
 			gameManager.Gold -= selectedGO.GetComponent<TowerData>().CurrentLevel.cost;
 			selectedGO.GetComponent<ClickAndMove>().spriteRenderer = selectedGO.GetComponentInChildren<SpriteRenderer>();
+			selectedGO.GetComponent<SpriteOutline>().spriteRenderer = selectedGO.GetComponentInChildren<SpriteRenderer>();
 
 			TowerInfoList();
 
@@ -437,7 +438,9 @@ public class GUIManagerScript : MonoBehaviour
 			}
 		}
 
-		if(tutorialManager.upgradePlatform == false && SceneManager.GetActiveScene().name == "TutorialScene")
+		ShowPlatformInfo();
+
+		if(tutorialManager.upgradePlatform == false && SceneManager.GetActiveScene().name == "TutorialLevel")
 		{
 			tutorialManager.OpenUpHint(8);
 			tutorialManager.upgradePlatform = true;

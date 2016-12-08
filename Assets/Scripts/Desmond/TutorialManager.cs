@@ -52,6 +52,7 @@ public class TutorialManager : MonoBehaviour
 	[HideInInspector]public bool dogSpawned = false;
 	[HideInInspector]public bool tankSpawned = false;
 	[HideInInspector]public bool showedUpgrade = false;
+	[HideInInspector]public bool showedPlatformUpgrade = false;
 	[HideInInspector]public bool upgradePlatform = false;
 
 	void Start()
