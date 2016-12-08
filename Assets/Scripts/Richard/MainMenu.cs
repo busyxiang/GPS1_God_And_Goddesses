@@ -60,7 +60,7 @@ public class MainMenu : MonoBehaviour
 
 	public void StartGame()
 	{
-		SceneManager.LoadScene("TutorialScene");
+		SceneManager.LoadScene("TutorialLevel");
 	}
 
 	public void SettingsPress()
