@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.EventSystems;
 using System.Collections;
 
 public class TileScript : MonoBehaviour
@@ -57,6 +58,11 @@ public class TileScript : MonoBehaviour
 
 		if(type == Type.NONE)
 		{
+			if(EventSystem.current.IsPointerOverGameObject())
+			{
+				return;
+			}
+
 			GUIManagerScript.Instance.UnselectEverything();
 		}
 	}

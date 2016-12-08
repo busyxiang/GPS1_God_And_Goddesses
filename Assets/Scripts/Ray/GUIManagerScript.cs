@@ -306,13 +306,19 @@ public class GUIManagerScript : MonoBehaviour
 			selectedGO.GetComponent<ClickAndMove>().currentTile.GetComponent<PlaceTower>().tower = null;
 			Destroy(selectedGO);
 			gameManager.Gold += sellTowerValue;
+			rangeDetection.SetActive(false);
+			HideTowerInfo();
 		}
 	}
 
 	public void ShowTowerInfo()
 	{
-		upgradeTowerButton.SetActive(true);
-		sellTowerButton.SetActive(true);
+		if(selectedGO.name != "PlutusTower(Clone)")
+		{
+			upgradeTowerButton.SetActive(true);
+			sellTowerButton.SetActive(true);			
+		}
+
 		textInfo.SetActive(true);
 
 		TowerInfoList();
