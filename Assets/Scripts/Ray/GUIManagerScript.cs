@@ -436,6 +436,12 @@ public class GUIManagerScript : MonoBehaviour
 				gameManager.Gold -= PlatformCost;
 			}
 		}
+
+		if(tutorialManager.upgradePlatform == false && SceneManager.GetActiveScene().name == "TutorialScene")
+		{
+			tutorialManager.OpenUpHint(8);
+			tutorialManager.upgradePlatform = true;
+		}
 	}
 
 	public void ShowPlatformInfo()

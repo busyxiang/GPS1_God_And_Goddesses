@@ -71,6 +71,11 @@ public class SpawnEnemy1 : MonoBehaviour
 				{
 					tutorialManager.OpenUpHint(4);
 					tutorialManager.showedUpgrade = true;
+
+					if(currentWave >= totalWave)
+					{
+						tutorialManager.OpenUpHint(7);
+					}
 				}
 				else
 				{
