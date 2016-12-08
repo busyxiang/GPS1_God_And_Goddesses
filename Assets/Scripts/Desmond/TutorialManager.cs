@@ -63,13 +63,6 @@ public class TutorialManager : MonoBehaviour
 			currentCardValue ++;
 			updateTutorialCard();
 		}
-		else
-		{
-			if(SceneManager.GetActiveScene().name == "TutorialScene")
-			{
-				SceneManager.LoadScene ("TutorialLevel");
-			}
-		}
 	}
 
 	public void Previous()
@@ -90,11 +83,7 @@ public class TutorialManager : MonoBehaviour
 
 		UI.enabled = true;
 		tutorialCanvas.enabled = false;
-
-		if(SceneManager.GetActiveScene().name != "TutorialScene")
-		{
-			TileManagerScript.Instance.ActivateBoxCollider2D();			
-		}
+		TileManagerScript.Instance.ActivateBoxCollider2D();
 	}
 
 	public void Open()
@@ -104,15 +93,11 @@ public class TutorialManager : MonoBehaviour
 
 		currentCardValue = 0;
 		updateTutorialCard();
-
-		if(SceneManager.GetActiveScene().name != "TutorialScene")
-		{
-			TileManagerScript.Instance.DeactivaBoxCollider2D();
-		}
+		TileManagerScript.Instance.DeactivaBoxCollider2D();
 
 		if(Time.timeScale != 0)
 		{
-			Time.timeScale = 0.0f;
+			Time.timeScale = 0;
 		}
 	}
 }

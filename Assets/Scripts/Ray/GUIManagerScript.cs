@@ -85,6 +85,8 @@ public class GUIManagerScript : MonoBehaviour
 		{
 			tutorialManager = GameObject.Find("TutorialManager").GetComponent<TutorialManager>();
 		}
+
+		StartCoroutine(HideProgressIndicator(1.5f));
 	}
 
 	// Update is called once per frame
