@@ -270,6 +270,16 @@ public class SpawnEnemy1 : MonoBehaviour
 			tutorialManager.OpenUpHint(3);
 			tutorialManager.minionSpawned = true;
 		}
+		else if(SceneManager.GetActiveScene().name == "Level_1" && tutorialManager.dogSpawned == false)
+		{
+			tutorialManager.OpenUpHint(5);
+			tutorialManager.dogSpawned = true;
+		}
+		else if(SceneManager.GetActiveScene().name == "Level_2" && tutorialManager.tankSpawned == false && currentWave >= totalWave)
+		{
+			tutorialManager.OpenUpHint(6);
+			tutorialManager.tankSpawned = true;
+		}
 
 		if(GUIManagerScript.Instance.selectedGO != null)
 		{

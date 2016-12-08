@@ -49,6 +49,8 @@ public class TutorialManager : MonoBehaviour
 
 	[HideInInspector]public bool placedTower = false;
 	[HideInInspector]public bool minionSpawned = false;
+	[HideInInspector]public bool dogSpawned = false;
+	[HideInInspector]public bool tankSpawned = false;
 	[HideInInspector]public bool showedUpgrade = false;
 
 	void Start()

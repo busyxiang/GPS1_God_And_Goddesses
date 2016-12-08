@@ -132,17 +132,5 @@ public class EnemyMovement : MonoBehaviour
 		attackDelayTimer = 0;
 		this.gameObject.GetComponent<SpriteRenderer>().color = Color.white;
 		Level1.GetComponent<SpawnEnemy1>().currentRemainingEnemy--;
-
-		/*if(Level1.GetComponent<SpawnEnemy1>().currentRemainingEnemy <=0 && Level1.GetComponent<SpawnEnemy1>().currentWave != Level1.GetComponent<SpawnEnemy1>().totalWave)
-		{
-			if(SceneManager.GetActiveScene().name == "TutorialScene")
-			{
-				TutorialManager.Instance.OpenUpHint(4);
-			}
-			else
-			{
-				GUIManagerScript.Instance.UpdateProgressIndicator(2);				
-			}
-		}*/
 	}
 }
